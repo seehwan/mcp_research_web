@@ -1,0 +1,10019 @@
+cscope 15 $HOME/mcp_research_web -q 0000000864 0000064029
+	@.dart_tool/flutter_build/1282c6623e7d7870e143bf69583ae230/debug_app.cc
+
+1 cÚ¡ 
+	gMoo
+ = 88;
+
+	@build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/DerivedSources/GeneratedAssetSymbols.h
+
+1 #impÜˆ<
+Found©iÚ
+/Found©iÚ.
+h
+>
+
+3 #ià
+__has_©Œibu‹
+(
+swiá_´iv©e
+)
+
+4 
+	#AC_SWIFT_PRIVATE
+ 
+	`__©Œibu‹__
+((
+swiá_´iv©e
+))
+
+	)
+
+6 
+	#AC_SWIFT_PRIVATE
+
+
+	)
+
+9 #undeà
+AC_SWIFT_PRIVATE
+
+
+	@build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/DerivedSources/mcp_research_web-Swift.h
+
+2 #–ià
+defšed
+(
+__¬m64__
+) && __arm64__
+
+4 #iâdeà
+MCP_RESEARCH_WEB_SWIFT_H
+
+
+5 
+	#MCP_RESEARCH_WEB_SWIFT_H
+
+
+	)
+
+6 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+push
+
+
+7 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wgcc-compat"
+
+9 #ià!
+defšed
+(
+__has_šşude
+)
+
+10 
+	#__has_šşude
+(
+x
+è0
+
+	)
+
+12 #ià!
+defšed
+(
+__has_©Œibu‹
+)
+
+13 
+	#__has_©Œibu‹
+(
+x
+è0
+
+	)
+
+15 #ià!
+defšed
+(
+__has_ã©u»
+)
+
+16 
+	#__has_ã©u»
+(
+x
+è0
+
+	)
+
+18 #ià!
+defšed
+(
+__has_w¬nšg
+)
+
+19 
+	#__has_w¬nšg
+(
+x
+è0
+
+	)
+
+22 #ià
+__has_šşude
+(<
+swiá
+/
+objc
+-
+´Şogue
+.
+h
+>)
+
+23 
+	~<swiá/objc-´Şogue.h
+>
+
+26 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wauto-import"
+
+27 #ià
+defšed
+(
+__OBJC__
+)
+
+28 
+	~<Found©iÚ/Found©iÚ.h
+>
+
+30 #ià
+defšed
+(
+__ılu¥lus
+)
+
+31 
+	~<c¡dšt
+>
+
+32 
+	~<c¡ddef
+>
+
+33 
+	~<c¡dboŞ
+>
+
+34 
+	~<c¡ršg
+>
+
+35 
+	~<¡dlib.h
+>
+
+36 
+	~<Ãw
+>
+
+37 
+	~<ty³_Œa™s
+>
+
+39 
+	~<¡dšt.h
+>
+
+40 
+	~<¡ddef.h
+>
+
+41 
+	~<¡dboŞ.h
+>
+
+42 
+	~<¡ršg.h
+>
+
+44 #ià
+defšed
+(
+__ılu¥lus
+)
+
+45 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+push
+
+
+46 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wnon-modular-include-in-framework-module"
+
+47 #ià
+defšed
+(
+__¬m64e__
+è&& 
+__has_šşude
+(<
+±¿uth
+.
+h
+>)
+
+48 
+	~<±¿uth.h
+>
+
+50 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+push
+
+
+51 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wreserved-macro-identifier"
+
+52 #iâdeà
+__±¿uth_swiá_v®ue_w™Ãss_funùiÚ_poš‹r
+
+
+53 
+	#__±¿uth_swiá_v®ue_w™Ãss_funùiÚ_poš‹r
+(
+x
+)
+
+	)
+
+55 #iâdeà
+__±¿uth_swiá_şass_m‘hod_poš‹r
+
+
+56 
+	#__±¿uth_swiá_şass_m‘hod_poš‹r
+(
+x
+)
+
+	)
+
+58 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+pİ
+
+
+60 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+pİ
+
+
+63 #ià!
+defšed
+(
+SWIFT_TYPEDEFS
+)
+
+64 
+	#SWIFT_TYPEDEFS
+ 1
+
+	)
+
+65 #ià
+__has_šşude
+(<
+uch¬
+.
+h
+>)
+
+66 
+	~<uch¬.h
+>
+
+67 #–ià!
+defšed
+(
+__ılu¥lus
+)
+
+68 
+	tch¬8_t
+;
+
+69 
+ušt_Ëa¡16_t
+ 
+	tch¬16_t
+;
+
+70 
+ušt_Ëa¡32_t
+ 
+	tch¬32_t
+;
+
+72 
+	tswiá_æßt2
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(2)));
+
+73 
+	tswiá_æßt3
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(3)));
+
+74 
+	tswiá_æßt4
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(4)));
+
+75 
+	tswiá_doubË2
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(2)));
+
+76 
+	tswiá_doubË3
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(3)));
+
+77 
+	tswiá_doubË4
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(4)));
+
+78 
+	tswiá_št2
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(2)));
+
+79 
+	tswiá_št3
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(3)));
+
+80 
+	tswiá_št4
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(4)));
+
+81 
+	tswiá_ušt2
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(2)));
+
+82 
+	tswiá_ušt3
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(3)));
+
+83 
+	tswiá_ušt4
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(4)));
+
+86 #ià!
+defšed
+(
+SWIFT_PASTE
+)
+
+87 
+	#SWIFT_PASTE_HELPER
+(
+x
+, 
+y
+èx##
+	)
+y
+
+88 
+	#SWIFT_PASTE
+(
+x
+, 
+y
+è
+	`SWIFT_PASTE_HELPER
+(x, y)
+
+	)
+
+90 #ià!
+defšed
+(
+SWIFT_METATYPE
+)
+
+91 
+	#SWIFT_METATYPE
+(
+X
+è
+CÏss
+
+
+	)
+
+93 #ià!
+defšed
+(
+SWIFT_CLASS_PROPERTY
+)
+
+94 #ià
+__has_ã©u»
+(
+objc_şass_´İ”ty
+)
+
+95 
+	#SWIFT_CLASS_PROPERTY
+(...è
+__VA_ARGS__
+
+
+	)
+
+97 
+	#SWIFT_CLASS_PROPERTY
+(...)
+
+	)
+
+100 #ià!
+defšed
+(
+SWIFT_RUNTIME_NAME
+)
+
+101 #ià
+__has_©Œibu‹
+(
+objc_ruÁime_Çme
+)
+
+102 
+	#SWIFT_RUNTIME_NAME
+(
+X
+è
+	`__©Œibu‹__
+((
+	`objc_ruÁime_Çme
+(X)))
+
+	)
+
+104 
+	#SWIFT_RUNTIME_NAME
+(
+X
+)
+
+	)
+
+107 #ià!
+defšed
+(
+SWIFT_COMPILE_NAME
+)
+
+108 #ià
+__has_©Œibu‹
+(
+swiá_Çme
+)
+
+109 
+	#SWIFT_COMPILE_NAME
+(
+X
+è
+	`__©Œibu‹__
+((
+	`swiá_Çme
+(X)))
+
+	)
+
+111 
+	#SWIFT_COMPILE_NAME
+(
+X
+)
+
+	)
+
+114 #ià!
+defšed
+(
+SWIFT_METHOD_FAMILY
+)
+
+115 #ià
+__has_©Œibu‹
+(
+objc_m‘hod_çmy
+)
+
+116 
+	#SWIFT_METHOD_FAMILY
+(
+X
+è
+	`__©Œibu‹__
+((
+	`objc_m‘hod_çmy
+(X)))
+
+	)
+
+118 
+	#SWIFT_METHOD_FAMILY
+(
+X
+)
+
+	)
+
+121 #ià!
+defšed
+(
+SWIFT_NOESCAPE
+)
+
+122 #ià
+__has_©Œibu‹
+(
+nÛsÿ³
+)
+
+123 
+	#SWIFT_NOESCAPE
+ 
+	`__©Œibu‹__
+((
+nÛsÿ³
+))
+
+	)
+
+125 
+	#SWIFT_NOESCAPE
+
+
+	)
+
+128 #ià!
+defšed
+(
+SWIFT_RELEASES_ARGUMENT
+)
+
+129 #ià
+__has_©Œibu‹
+(
+ns_cÚsumed
+)
+
+130 
+	#SWIFT_RELEASES_ARGUMENT
+ 
+	`__©Œibu‹__
+((
+ns_cÚsumed
+))
+
+	)
+
+132 
+	#SWIFT_RELEASES_ARGUMENT
+
+
+	)
+
+135 #ià!
+defšed
+(
+SWIFT_WARN_UNUSED_RESULT
+)
+
+136 #ià
+__has_©Œibu‹
+(
+w¬n_unu£d_»suÉ
+)
+
+137 
+	#SWIFT_WARN_UNUSED_RESULT
+ 
+	`__©Œibu‹__
+((
+w¬n_unu£d_»suÉ
+))
+
+	)
+
+139 
+	#SWIFT_WARN_UNUSED_RESULT
+
+
+	)
+
+142 #ià!
+defšed
+(
+SWIFT_NORETURN
+)
+
+143 #ià
+__has_©Œibu‹
+(
+nÜ‘uº
+)
+
+144 
+	#SWIFT_NORETURN
+ 
+	`__©Œibu‹__
+((
+nÜ‘uº
+))
+
+	)
+
+146 
+	#SWIFT_NORETURN
+
+
+	)
+
+149 #ià!
+defšed
+(
+SWIFT_CLASS_EXTRA
+)
+
+150 
+	#SWIFT_CLASS_EXTRA
+
+
+	)
+
+152 #ià!
+defšed
+(
+SWIFT_PROTOCOL_EXTRA
+)
+
+153 
+	#SWIFT_PROTOCOL_EXTRA
+
+
+	)
+
+155 #ià!
+defšed
+(
+SWIFT_ENUM_EXTRA
+)
+
+156 
+	#SWIFT_ENUM_EXTRA
+
+
+	)
+
+158 #ià!
+defšed
+(
+SWIFT_CLASS
+)
+
+159 #ià
+__has_©Œibu‹
+(
+objc_subşassšg_»¡riùed
+)
+
+160 
+	#SWIFT_CLASS
+(
+SWIFT_NAME
+è
+	`SWIFT_RUNTIME_NAME
+(SWIFT_NAMEè
+	`__©Œibu‹__
+((
+objc_subşassšg_»¡riùed
+)è
+SWIFT_CLASS_EXTRA
+
+
+	)
+
+161 
+	#SWIFT_CLASS_NAMED
+(
+SWIFT_NAME
+è
+	`__©Œibu‹__
+((
+objc_subşassšg_»¡riùed
+)è
+	`SWIFT_COMPILE_NAME
+(SWIFT_NAMEè
+SWIFT_CLASS_EXTRA
+
+
+	)
+
+163 
+	#SWIFT_CLASS
+(
+SWIFT_NAME
+è
+	`SWIFT_RUNTIME_NAME
+(SWIFT_NAMEè
+SWIFT_CLASS_EXTRA
+
+
+	)
+
+164 
+	#SWIFT_CLASS_NAMED
+(
+SWIFT_NAME
+è
+	`SWIFT_COMPILE_NAME
+(SWIFT_NAMEè
+SWIFT_CLASS_EXTRA
+
+
+	)
+
+167 #ià!
+defšed
+(
+SWIFT_RESILIENT_CLASS
+)
+
+168 #ià
+__has_©Œibu‹
+(
+objc_şass_¡ub
+)
+
+169 
+	#SWIFT_RESILIENT_CLASS
+(
+SWIFT_NAME
+è
+	`SWIFT_CLASS
+(SWIFT_NAMEè
+	`__©Œibu‹__
+((
+objc_şass_¡ub
+))
+
+	)
+
+170 
+	#SWIFT_RESILIENT_CLASS_NAMED
+(
+SWIFT_NAME
+è
+	`__©Œibu‹__
+((
+objc_şass_¡ub
+)è
+	`SWIFT_CLASS_NAMED
+(SWIFT_NAME)
+
+	)
+
+172 
+	#SWIFT_RESILIENT_CLASS
+(
+SWIFT_NAME
+è
+	`SWIFT_CLASS
+(SWIFT_NAME)
+
+	)
+
+173 
+	#SWIFT_RESILIENT_CLASS_NAMED
+(
+SWIFT_NAME
+è
+	`SWIFT_CLASS_NAMED
+(SWIFT_NAME)
+
+	)
+
+176 #ià!
+defšed
+(
+SWIFT_PROTOCOL
+)
+
+177 
+	#SWIFT_PROTOCOL
+(
+SWIFT_NAME
+è
+	`SWIFT_RUNTIME_NAME
+(SWIFT_NAMEè
+SWIFT_PROTOCOL_EXTRA
+
+
+	)
+
+178 
+	#SWIFT_PROTOCOL_NAMED
+(
+SWIFT_NAME
+è
+	`SWIFT_COMPILE_NAME
+(SWIFT_NAMEè
+SWIFT_PROTOCOL_EXTRA
+
+
+	)
+
+180 #ià!
+defšed
+(
+SWIFT_EXTENSION
+)
+
+181 
+	#SWIFT_EXTENSION
+(
+M
+è
+	`SWIFT_PASTE
+(M##
+_Swiá_
+, 
+__LINE__
+)
+
+	)
+
+183 #ià!
+defšed
+(
+OBJC_DESIGNATED_INITIALIZER
+)
+
+184 #ià
+__has_©Œibu‹
+(
+objc_desigÇ‹d_š™Ÿliz”
+)
+
+185 
+	#OBJC_DESIGNATED_INITIALIZER
+ 
+	`__©Œibu‹__
+((
+objc_desigÇ‹d_š™Ÿliz”
+))
+
+	)
+
+187 
+	#OBJC_DESIGNATED_INITIALIZER
+
+
+	)
+
+190 #ià!
+defšed
+(
+SWIFT_ENUM_ATTR
+)
+
+191 #ià
+__has_©Œibu‹
+(
+’um_ex‹nsib™y
+)
+
+192 
+	#SWIFT_ENUM_ATTR
+(
+_ex‹nsib™y
+è
+	`__©Œibu‹__
+((
+	`’um_ex‹nsib™y
+(_ex‹nsib™y)))
+
+	)
+
+194 
+	#SWIFT_ENUM_ATTR
+(
+_ex‹nsib™y
+)
+
+	)
+
+197 #ià!
+defšed
+(
+SWIFT_ENUM
+)
+
+198 
+	#SWIFT_ENUM
+(
+_ty³
+, 
+_Çme
+, 
+_ex‹nsib™y
+è_Çm: _ty³ _Çme; 
+	`SWIFT_ENUM_ATTR
+(_ex‹nsib™yè
+SWIFT_ENUM_EXTRA
+ _Çm: 
+	)
+_ty³
+
+199 #ià
+__has_ã©u»
+(
+g’”®ized_swiá_Çme
+)
+
+200 
+	#SWIFT_ENUM_NAMED
+(
+_ty³
+, 
+_Çme
+, 
+SWIFT_NAME
+, 
+_ex‹nsib™y
+è_Çm: _ty³ _Çm
+	`SWIFT_COMPILE_NAME
+(SWIFT_NAME); SWIFT_COMPILE_NAME(SWIFT_NAMEè
+	`SWIFT_ENUM_ATTR
+(_ex‹nsib™yè
+SWIFT_ENUM_EXTRA
+ _Çm: 
+	)
+_ty³
+
+202 
+	#SWIFT_ENUM_NAMED
+(
+_ty³
+, 
+_Çme
+, 
+SWIFT_NAME
+, 
+_ex‹nsib™y
+è
+	`SWIFT_ENUM
+(_ty³, _Çme, _ex‹nsib™y)
+
+	)
+
+205 #ià!
+defšed
+(
+SWIFT_UNAVAILABLE
+)
+
+206 
+	#SWIFT_UNAVAILABLE
+ 
+	`__©Œibu‹__
+((
+uÇvaabË
+))
+
+	)
+
+208 #ià!
+defšed
+(
+SWIFT_UNAVAILABLE_MSG
+)
+
+209 
+	#SWIFT_UNAVAILABLE_MSG
+(
+msg
+è
+	`__©Œibu‹__
+((
+	`uÇvaabË
+(msg)))
+
+	)
+
+211 #ià!
+defšed
+(
+SWIFT_AVAILABILITY
+)
+
+212 
+	#SWIFT_AVAILABILITY
+(
+¶©
+, ...è
+	`__©Œibu‹__
+((
+	`avaab™y
+ÕÏt, 
+__VA_ARGS__
+)))
+
+	)
+
+214 #ià!
+defšed
+(
+SWIFT_WEAK_IMPORT
+)
+
+215 
+	#SWIFT_WEAK_IMPORT
+ 
+	`__©Œibu‹__
+((
+w—k_impÜt
+))
+
+	)
+
+217 #ià!
+defšed
+(
+SWIFT_DEPRECATED
+)
+
+218 
+	#SWIFT_DEPRECATED
+ 
+	`__©Œibu‹__
+((
+d•»ÿ‹d
+))
+
+	)
+
+220 #ià!
+defšed
+(
+SWIFT_DEPRECATED_MSG
+)
+
+221 
+	#SWIFT_DEPRECATED_MSG
+(...è
+	`__©Œibu‹__
+((
+	`d•»ÿ‹d
+(
+__VA_ARGS__
+)))
+
+	)
+
+223 #ià!
+defšed
+(
+SWIFT_DEPRECATED_OBJC
+)
+
+224 #ià
+__has_ã©u»
+(
+©Œibu‹_dŸgno£_if_objc
+)
+
+225 
+	#SWIFT_DEPRECATED_OBJC
+(
+Msg
+è
+	`__©Œibu‹__
+((
+	`dŸgno£_if
+(1, Msg, "w¬nšg")))
+
+	)
+
+227 
+	#SWIFT_DEPRECATED_OBJC
+(
+Msg
+è
+	`SWIFT_DEPRECATED_MSG
+(Msg)
+
+	)
+
+230 #ià
+defšed
+(
+__OBJC__
+)
+
+231 #ià!
+defšed
+(
+IBSegueAùiÚ
+)
+
+232 
+	#IBSegueAùiÚ
+
+
+	)
+
+235 #ià!
+defšed
+(
+SWIFT_EXTERN
+)
+
+236 #ià
+defšed
+(
+__ılu¥lus
+)
+
+237 
+	#SWIFT_EXTERN
+ "C"
+
+	)
+
+239 
+	#SWIFT_EXTERN
+ 
+
+	)
+
+242 #ià!
+defšed
+(
+SWIFT_CALL
+)
+
+243 
+	#SWIFT_CALL
+ 
+	`__©Œibu‹__
+((
+swiáÿÎ
+))
+
+	)
+
+245 #ià!
+defšed
+(
+SWIFT_INDIRECT_RESULT
+)
+
+246 
+	#SWIFT_INDIRECT_RESULT
+ 
+	`__©Œibu‹__
+((
+swiá_šdœeù_»suÉ
+))
+
+	)
+
+248 #ià!
+defšed
+(
+SWIFT_CONTEXT
+)
+
+249 
+	#SWIFT_CONTEXT
+ 
+	`__©Œibu‹__
+((
+swiá_cÚ‹xt
+))
+
+	)
+
+251 #ià!
+defšed
+(
+SWIFT_ERROR_RESULT
+)
+
+252 
+	#SWIFT_ERROR_RESULT
+ 
+	`__©Œibu‹__
+((
+swiá_”rÜ_»suÉ
+))
+
+	)
+
+254 #ià
+defšed
+(
+__ılu¥lus
+)
+
+255 
+	#SWIFT_NOEXCEPT
+ 
+nÛxû±
+
+
+	)
+
+257 
+	#SWIFT_NOEXCEPT
+
+
+	)
+
+259 #ià!
+defšed
+(
+SWIFT_C_INLINE_THUNK
+)
+
+260 #ià
+__has_©Œibu‹
+(
+®ways_šlše
+)
+
+261 #ià
+__has_©Œibu‹
+(
+nodebug
+)
+
+262 
+	#SWIFT_C_INLINE_THUNK
+ 
+šlše
+ 
+	`__©Œibu‹__
+((
+®ways_šlše
+)è__©Œibu‹__((
+nodebug
+))
+
+	)
+
+264 
+	#SWIFT_C_INLINE_THUNK
+ 
+šlše
+ 
+	`__©Œibu‹__
+((
+®ways_šlše
+))
+
+	)
+
+267 
+	#SWIFT_C_INLINE_THUNK
+ 
+šlše
+
+
+	)
+
+270 #ià
+defšed
+(
+_WIN32
+)
+
+271 #ià!
+defšed
+(
+SWIFT_IMPORT_STDLIB_SYMBOL
+)
+
+272 
+	#SWIFT_IMPORT_STDLIB_SYMBOL
+ 
+	`__deş¥ec
+(
+dÎimpÜt
+)
+
+	)
+
+275 #ià!
+defšed
+(
+SWIFT_IMPORT_STDLIB_SYMBOL
+)
+
+276 
+	#SWIFT_IMPORT_STDLIB_SYMBOL
+
+
+	)
+
+279 #ià
+defšed
+(
+__OBJC__
+)
+
+280 #ià
+__has_ã©u»
+(
+objc_moduËs
+)
+
+281 #ià
+__has_w¬nšg
+("-Watimport-in-framework-header")
+
+282 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Watimport-in-framework-header"
+
+284 @
+impÜt
+ 
+AµK™
+;
+
+285 @
+impÜt
+ 
+	gFlu‰”MacOS
+;
+
+286 @
+impÜt
+ 
+	gFound©iÚ
+;
+
+290 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wproperty-attribute-mismatch"
+
+291 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wduplicate-method-arg"
+
+292 #ià
+__has_w¬nšg
+("-Wpragma-clang-attribute")
+
+293 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wpragma-clang-attribute"
+
+295 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wunknown-pragmas"
+
+296 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wnullability"
+
+297 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wdollar-in-identifier-extension"
+
+298 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wunsafe-buffer-usage"
+
+300 #ià
+__has_©Œibu‹
+(
+ex‹º®_sourû_symbŞ
+)
+
+301 #´agm¨
+push_maüo
+("any")
+
+302 #undeà
+ªy
+
+
+303 #´agm¨
+şªg
+ 
+©Œibu‹
+ 
+push
+(
+__©Œibu‹__
+((
+ex‹º®_sourû_symbŞ
+(
+Ïnguage
+="Swiá", 
+defšed_š
+="mı_»£¬ch_web",
+g’”©ed_deş¬©iÚ
+))), 
+­¶y_to
+=
+ªy
+(
+funùiÚ
+,,
+objc_š‹rçû
+,
+objc_ÿ‹gÜy
+,
+objc_´ÙocŞ
+))
+
+304 #´agm¨
+pİ_maüo
+("any")
+
+307 #ià
+defšed
+(
+__OBJC__
+)
+
+309 @
+şass
+ 
+	gNSAµliÿtiÚ
+;
+
+310 
+SWIFT_CLASS
+("_TtC16mcp_research_web11AppDelegate")
+
+311 @
+š‹rçû
+ 
+	gAµD–eg©e
+ : 
+Flu‰”AµD–eg©e
+
+
+312 - (
+BOOL
+)
+­¶iÿtiÚShouldT”mš©eAá”La¡WšdowClo£d
+:(
+NSAµliÿtiÚ
+ * 
+_NÚnuÎ
+)
+£nd”
+ 
+SWIFT_WARN_UNUSED_RESULT
+;
+
+313 - (
+	gBOOL
+)
+	g­¶iÿtiÚSuµÜtsSecu»Re¡ÜabËS‹
+:(
+NSAµliÿtiÚ
+ * 
+_NÚnuÎ
+)
+­p
+ 
+SWIFT_WARN_UNUSED_RESULT
+;
+
+314 - (
+nÚnuÎ
+ 
+	gš¡ªûty³
+)
+š™
+ 
+	gOBJC_DESIGNATED_INITIALIZER
+;
+
+315 @
+’d
+
+
+317 
+SWIFT_CLASS
+("_TtC16mcp_research_web17MainFlutterWindow")
+
+318 @
+š‹rçû
+ 
+	gMašFlu‰”Wšdow
+ : 
+NSWšdow
+
+
+319 - ()
+awakeFromNib
+;
+
+320 - (
+nÚnuÎ
+ 
+	gš¡ªûty³
+)
+	gš™W™hCÚ‹ÁReù
+:(
+NSReù
+)
+cÚ‹ÁReù
+ 
+¡yËMask
+:(
+NSWšdowStyËMask
+)
+¡yË
+ 
+backšg
+:(
+NSBackšgStÜeTy³
+)
+backšgStÜeTy³
+ 
+deãr
+:(
+BOOL
+)
+æag
+ 
+OBJC_DESIGNATED_INITIALIZER
+;
+
+321 @
+	g’d
+
+
+324 #ià
+__has_©Œibu‹
+(
+ex‹º®_sourû_symbŞ
+)
+
+325 #´agm¨
+şªg
+ 
+©Œibu‹
+ 
+pİ
+
+
+327 #ià
+defšed
+(
+__ılu¥lus
+)
+
+329 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+pİ
+
+
+333 #”rÜ 
+unsuµÜ‹d
+ 
+Swiá
+ 
+¬ch™eùu»
+
+
+	@build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/mcp_research_web-Swift.h
+
+2 #iâdeà
+MCP_RESEARCH_WEB_SWIFT_H
+
+
+3 
+	#MCP_RESEARCH_WEB_SWIFT_H
+
+
+	)
+
+4 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+push
+
+
+5 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wgcc-compat"
+
+7 #ià!
+defšed
+(
+__has_šşude
+)
+
+8 
+	#__has_šşude
+(
+x
+è0
+
+	)
+
+10 #ià!
+defšed
+(
+__has_©Œibu‹
+)
+
+11 
+	#__has_©Œibu‹
+(
+x
+è0
+
+	)
+
+13 #ià!
+defšed
+(
+__has_ã©u»
+)
+
+14 
+	#__has_ã©u»
+(
+x
+è0
+
+	)
+
+16 #ià!
+defšed
+(
+__has_w¬nšg
+)
+
+17 
+	#__has_w¬nšg
+(
+x
+è0
+
+	)
+
+20 #ià
+__has_šşude
+(<
+swiá
+/
+objc
+-
+´Şogue
+.
+h
+>)
+
+21 
+	~<swiá/objc-´Şogue.h
+>
+
+24 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wauto-import"
+
+25 #ià
+defšed
+(
+__OBJC__
+)
+
+26 
+	~<Found©iÚ/Found©iÚ.h
+>
+
+28 #ià
+defšed
+(
+__ılu¥lus
+)
+
+29 
+	~<c¡dšt
+>
+
+30 
+	~<c¡ddef
+>
+
+31 
+	~<c¡dboŞ
+>
+
+32 
+	~<c¡ršg
+>
+
+33 
+	~<¡dlib.h
+>
+
+34 
+	~<Ãw
+>
+
+35 
+	~<ty³_Œa™s
+>
+
+37 
+	~<¡dšt.h
+>
+
+38 
+	~<¡ddef.h
+>
+
+39 
+	~<¡dboŞ.h
+>
+
+40 
+	~<¡ršg.h
+>
+
+42 #ià
+defšed
+(
+__ılu¥lus
+)
+
+43 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+push
+
+
+44 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wnon-modular-include-in-framework-module"
+
+45 #ià
+defšed
+(
+__¬m64e__
+è&& 
+__has_šşude
+(<
+±¿uth
+.
+h
+>)
+
+46 
+	~<±¿uth.h
+>
+
+48 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+push
+
+
+49 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wreserved-macro-identifier"
+
+50 #iâdeà
+__±¿uth_swiá_v®ue_w™Ãss_funùiÚ_poš‹r
+
+
+51 
+	#__±¿uth_swiá_v®ue_w™Ãss_funùiÚ_poš‹r
+(
+x
+)
+
+	)
+
+53 #iâdeà
+__±¿uth_swiá_şass_m‘hod_poš‹r
+
+
+54 
+	#__±¿uth_swiá_şass_m‘hod_poš‹r
+(
+x
+)
+
+	)
+
+56 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+pİ
+
+
+58 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+pİ
+
+
+61 #ià!
+defšed
+(
+SWIFT_TYPEDEFS
+)
+
+62 
+	#SWIFT_TYPEDEFS
+ 1
+
+	)
+
+63 #ià
+__has_šşude
+(<
+uch¬
+.
+h
+>)
+
+64 
+	~<uch¬.h
+>
+
+65 #–ià!
+defšed
+(
+__ılu¥lus
+)
+
+66 
+	tch¬8_t
+;
+
+67 
+ušt_Ëa¡16_t
+ 
+	tch¬16_t
+;
+
+68 
+ušt_Ëa¡32_t
+ 
+	tch¬32_t
+;
+
+70 
+	tswiá_æßt2
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(2)));
+
+71 
+	tswiá_æßt3
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(3)));
+
+72 
+	tswiá_æßt4
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(4)));
+
+73 
+	tswiá_doubË2
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(2)));
+
+74 
+	tswiá_doubË3
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(3)));
+
+75 
+	tswiá_doubË4
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(4)));
+
+76 
+	tswiá_št2
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(2)));
+
+77 
+	tswiá_št3
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(3)));
+
+78 
+	tswiá_št4
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(4)));
+
+79 
+	tswiá_ušt2
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(2)));
+
+80 
+	tswiá_ušt3
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(3)));
+
+81 
+	tswiá_ušt4
+ 
+	t__©Œibu‹__
+((
+	t__ext_veùÜ_ty³__
+(4)));
+
+84 #ià!
+defšed
+(
+SWIFT_PASTE
+)
+
+85 
+	#SWIFT_PASTE_HELPER
+(
+x
+, 
+y
+èx##
+	)
+y
+
+86 
+	#SWIFT_PASTE
+(
+x
+, 
+y
+è
+	`SWIFT_PASTE_HELPER
+(x, y)
+
+	)
+
+88 #ià!
+defšed
+(
+SWIFT_METATYPE
+)
+
+89 
+	#SWIFT_METATYPE
+(
+X
+è
+CÏss
+
+
+	)
+
+91 #ià!
+defšed
+(
+SWIFT_CLASS_PROPERTY
+)
+
+92 #ià
+__has_ã©u»
+(
+objc_şass_´İ”ty
+)
+
+93 
+	#SWIFT_CLASS_PROPERTY
+(...è
+__VA_ARGS__
+
+
+	)
+
+95 
+	#SWIFT_CLASS_PROPERTY
+(...)
+
+	)
+
+98 #ià!
+defšed
+(
+SWIFT_RUNTIME_NAME
+)
+
+99 #ià
+__has_©Œibu‹
+(
+objc_ruÁime_Çme
+)
+
+100 
+	#SWIFT_RUNTIME_NAME
+(
+X
+è
+	`__©Œibu‹__
+((
+	`objc_ruÁime_Çme
+(X)))
+
+	)
+
+102 
+	#SWIFT_RUNTIME_NAME
+(
+X
+)
+
+	)
+
+105 #ià!
+defšed
+(
+SWIFT_COMPILE_NAME
+)
+
+106 #ià
+__has_©Œibu‹
+(
+swiá_Çme
+)
+
+107 
+	#SWIFT_COMPILE_NAME
+(
+X
+è
+	`__©Œibu‹__
+((
+	`swiá_Çme
+(X)))
+
+	)
+
+109 
+	#SWIFT_COMPILE_NAME
+(
+X
+)
+
+	)
+
+112 #ià!
+defšed
+(
+SWIFT_METHOD_FAMILY
+)
+
+113 #ià
+__has_©Œibu‹
+(
+objc_m‘hod_çmy
+)
+
+114 
+	#SWIFT_METHOD_FAMILY
+(
+X
+è
+	`__©Œibu‹__
+((
+	`objc_m‘hod_çmy
+(X)))
+
+	)
+
+116 
+	#SWIFT_METHOD_FAMILY
+(
+X
+)
+
+	)
+
+119 #ià!
+defšed
+(
+SWIFT_NOESCAPE
+)
+
+120 #ià
+__has_©Œibu‹
+(
+nÛsÿ³
+)
+
+121 
+	#SWIFT_NOESCAPE
+ 
+	`__©Œibu‹__
+((
+nÛsÿ³
+))
+
+	)
+
+123 
+	#SWIFT_NOESCAPE
+
+
+	)
+
+126 #ià!
+defšed
+(
+SWIFT_RELEASES_ARGUMENT
+)
+
+127 #ià
+__has_©Œibu‹
+(
+ns_cÚsumed
+)
+
+128 
+	#SWIFT_RELEASES_ARGUMENT
+ 
+	`__©Œibu‹__
+((
+ns_cÚsumed
+))
+
+	)
+
+130 
+	#SWIFT_RELEASES_ARGUMENT
+
+
+	)
+
+133 #ià!
+defšed
+(
+SWIFT_WARN_UNUSED_RESULT
+)
+
+134 #ià
+__has_©Œibu‹
+(
+w¬n_unu£d_»suÉ
+)
+
+135 
+	#SWIFT_WARN_UNUSED_RESULT
+ 
+	`__©Œibu‹__
+((
+w¬n_unu£d_»suÉ
+))
+
+	)
+
+137 
+	#SWIFT_WARN_UNUSED_RESULT
+
+
+	)
+
+140 #ià!
+defšed
+(
+SWIFT_NORETURN
+)
+
+141 #ià
+__has_©Œibu‹
+(
+nÜ‘uº
+)
+
+142 
+	#SWIFT_NORETURN
+ 
+	`__©Œibu‹__
+((
+nÜ‘uº
+))
+
+	)
+
+144 
+	#SWIFT_NORETURN
+
+
+	)
+
+147 #ià!
+defšed
+(
+SWIFT_CLASS_EXTRA
+)
+
+148 
+	#SWIFT_CLASS_EXTRA
+
+
+	)
+
+150 #ià!
+defšed
+(
+SWIFT_PROTOCOL_EXTRA
+)
+
+151 
+	#SWIFT_PROTOCOL_EXTRA
+
+
+	)
+
+153 #ià!
+defšed
+(
+SWIFT_ENUM_EXTRA
+)
+
+154 
+	#SWIFT_ENUM_EXTRA
+
+
+	)
+
+156 #ià!
+defšed
+(
+SWIFT_CLASS
+)
+
+157 #ià
+__has_©Œibu‹
+(
+objc_subşassšg_»¡riùed
+)
+
+158 
+	#SWIFT_CLASS
+(
+SWIFT_NAME
+è
+	`SWIFT_RUNTIME_NAME
+(SWIFT_NAMEè
+	`__©Œibu‹__
+((
+objc_subşassšg_»¡riùed
+)è
+SWIFT_CLASS_EXTRA
+
+
+	)
+
+159 
+	#SWIFT_CLASS_NAMED
+(
+SWIFT_NAME
+è
+	`__©Œibu‹__
+((
+objc_subşassšg_»¡riùed
+)è
+	`SWIFT_COMPILE_NAME
+(SWIFT_NAMEè
+SWIFT_CLASS_EXTRA
+
+
+	)
+
+161 
+	#SWIFT_CLASS
+(
+SWIFT_NAME
+è
+	`SWIFT_RUNTIME_NAME
+(SWIFT_NAMEè
+SWIFT_CLASS_EXTRA
+
+
+	)
+
+162 
+	#SWIFT_CLASS_NAMED
+(
+SWIFT_NAME
+è
+	`SWIFT_COMPILE_NAME
+(SWIFT_NAMEè
+SWIFT_CLASS_EXTRA
+
+
+	)
+
+165 #ià!
+defšed
+(
+SWIFT_RESILIENT_CLASS
+)
+
+166 #ià
+__has_©Œibu‹
+(
+objc_şass_¡ub
+)
+
+167 
+	#SWIFT_RESILIENT_CLASS
+(
+SWIFT_NAME
+è
+	`SWIFT_CLASS
+(SWIFT_NAMEè
+	`__©Œibu‹__
+((
+objc_şass_¡ub
+))
+
+	)
+
+168 
+	#SWIFT_RESILIENT_CLASS_NAMED
+(
+SWIFT_NAME
+è
+	`__©Œibu‹__
+((
+objc_şass_¡ub
+)è
+	`SWIFT_CLASS_NAMED
+(SWIFT_NAME)
+
+	)
+
+170 
+	#SWIFT_RESILIENT_CLASS
+(
+SWIFT_NAME
+è
+	`SWIFT_CLASS
+(SWIFT_NAME)
+
+	)
+
+171 
+	#SWIFT_RESILIENT_CLASS_NAMED
+(
+SWIFT_NAME
+è
+	`SWIFT_CLASS_NAMED
+(SWIFT_NAME)
+
+	)
+
+174 #ià!
+defšed
+(
+SWIFT_PROTOCOL
+)
+
+175 
+	#SWIFT_PROTOCOL
+(
+SWIFT_NAME
+è
+	`SWIFT_RUNTIME_NAME
+(SWIFT_NAMEè
+SWIFT_PROTOCOL_EXTRA
+
+
+	)
+
+176 
+	#SWIFT_PROTOCOL_NAMED
+(
+SWIFT_NAME
+è
+	`SWIFT_COMPILE_NAME
+(SWIFT_NAMEè
+SWIFT_PROTOCOL_EXTRA
+
+
+	)
+
+178 #ià!
+defšed
+(
+SWIFT_EXTENSION
+)
+
+179 
+	#SWIFT_EXTENSION
+(
+M
+è
+	`SWIFT_PASTE
+(M##
+_Swiá_
+, 
+__LINE__
+)
+
+	)
+
+181 #ià!
+defšed
+(
+OBJC_DESIGNATED_INITIALIZER
+)
+
+182 #ià
+__has_©Œibu‹
+(
+objc_desigÇ‹d_š™Ÿliz”
+)
+
+183 
+	#OBJC_DESIGNATED_INITIALIZER
+ 
+	`__©Œibu‹__
+((
+objc_desigÇ‹d_š™Ÿliz”
+))
+
+	)
+
+185 
+	#OBJC_DESIGNATED_INITIALIZER
+
+
+	)
+
+188 #ià!
+defšed
+(
+SWIFT_ENUM_ATTR
+)
+
+189 #ià
+__has_©Œibu‹
+(
+’um_ex‹nsib™y
+)
+
+190 
+	#SWIFT_ENUM_ATTR
+(
+_ex‹nsib™y
+è
+	`__©Œibu‹__
+((
+	`’um_ex‹nsib™y
+(_ex‹nsib™y)))
+
+	)
+
+192 
+	#SWIFT_ENUM_ATTR
+(
+_ex‹nsib™y
+)
+
+	)
+
+195 #ià!
+defšed
+(
+SWIFT_ENUM
+)
+
+196 
+	#SWIFT_ENUM
+(
+_ty³
+, 
+_Çme
+, 
+_ex‹nsib™y
+è_Çm: _ty³ _Çme; 
+	`SWIFT_ENUM_ATTR
+(_ex‹nsib™yè
+SWIFT_ENUM_EXTRA
+ _Çm: 
+	)
+_ty³
+
+197 #ià
+__has_ã©u»
+(
+g’”®ized_swiá_Çme
+)
+
+198 
+	#SWIFT_ENUM_NAMED
+(
+_ty³
+, 
+_Çme
+, 
+SWIFT_NAME
+, 
+_ex‹nsib™y
+è_Çm: _ty³ _Çm
+	`SWIFT_COMPILE_NAME
+(SWIFT_NAME); SWIFT_COMPILE_NAME(SWIFT_NAMEè
+	`SWIFT_ENUM_ATTR
+(_ex‹nsib™yè
+SWIFT_ENUM_EXTRA
+ _Çm: 
+	)
+_ty³
+
+200 
+	#SWIFT_ENUM_NAMED
+(
+_ty³
+, 
+_Çme
+, 
+SWIFT_NAME
+, 
+_ex‹nsib™y
+è
+	`SWIFT_ENUM
+(_ty³, _Çme, _ex‹nsib™y)
+
+	)
+
+203 #ià!
+defšed
+(
+SWIFT_UNAVAILABLE
+)
+
+204 
+	#SWIFT_UNAVAILABLE
+ 
+	`__©Œibu‹__
+((
+uÇvaabË
+))
+
+	)
+
+206 #ià!
+defšed
+(
+SWIFT_UNAVAILABLE_MSG
+)
+
+207 
+	#SWIFT_UNAVAILABLE_MSG
+(
+msg
+è
+	`__©Œibu‹__
+((
+	`uÇvaabË
+(msg)))
+
+	)
+
+209 #ià!
+defšed
+(
+SWIFT_AVAILABILITY
+)
+
+210 
+	#SWIFT_AVAILABILITY
+(
+¶©
+, ...è
+	`__©Œibu‹__
+((
+	`avaab™y
+ÕÏt, 
+__VA_ARGS__
+)))
+
+	)
+
+212 #ià!
+defšed
+(
+SWIFT_WEAK_IMPORT
+)
+
+213 
+	#SWIFT_WEAK_IMPORT
+ 
+	`__©Œibu‹__
+((
+w—k_impÜt
+))
+
+	)
+
+215 #ià!
+defšed
+(
+SWIFT_DEPRECATED
+)
+
+216 
+	#SWIFT_DEPRECATED
+ 
+	`__©Œibu‹__
+((
+d•»ÿ‹d
+))
+
+	)
+
+218 #ià!
+defšed
+(
+SWIFT_DEPRECATED_MSG
+)
+
+219 
+	#SWIFT_DEPRECATED_MSG
+(...è
+	`__©Œibu‹__
+((
+	`d•»ÿ‹d
+(
+__VA_ARGS__
+)))
+
+	)
+
+221 #ià!
+defšed
+(
+SWIFT_DEPRECATED_OBJC
+)
+
+222 #ià
+__has_ã©u»
+(
+©Œibu‹_dŸgno£_if_objc
+)
+
+223 
+	#SWIFT_DEPRECATED_OBJC
+(
+Msg
+è
+	`__©Œibu‹__
+((
+	`dŸgno£_if
+(1, Msg, "w¬nšg")))
+
+	)
+
+225 
+	#SWIFT_DEPRECATED_OBJC
+(
+Msg
+è
+	`SWIFT_DEPRECATED_MSG
+(Msg)
+
+	)
+
+228 #ià
+defšed
+(
+__OBJC__
+)
+
+229 #ià!
+defšed
+(
+IBSegueAùiÚ
+)
+
+230 
+	#IBSegueAùiÚ
+
+
+	)
+
+233 #ià!
+defšed
+(
+SWIFT_EXTERN
+)
+
+234 #ià
+defšed
+(
+__ılu¥lus
+)
+
+235 
+	#SWIFT_EXTERN
+ "C"
+
+	)
+
+237 
+	#SWIFT_EXTERN
+ 
+
+	)
+
+240 #ià!
+defšed
+(
+SWIFT_CALL
+)
+
+241 
+	#SWIFT_CALL
+ 
+	`__©Œibu‹__
+((
+swiáÿÎ
+))
+
+	)
+
+243 #ià!
+defšed
+(
+SWIFT_INDIRECT_RESULT
+)
+
+244 
+	#SWIFT_INDIRECT_RESULT
+ 
+	`__©Œibu‹__
+((
+swiá_šdœeù_»suÉ
+))
+
+	)
+
+246 #ià!
+defšed
+(
+SWIFT_CONTEXT
+)
+
+247 
+	#SWIFT_CONTEXT
+ 
+	`__©Œibu‹__
+((
+swiá_cÚ‹xt
+))
+
+	)
+
+249 #ià!
+defšed
+(
+SWIFT_ERROR_RESULT
+)
+
+250 
+	#SWIFT_ERROR_RESULT
+ 
+	`__©Œibu‹__
+((
+swiá_”rÜ_»suÉ
+))
+
+	)
+
+252 #ià
+defšed
+(
+__ılu¥lus
+)
+
+253 
+	#SWIFT_NOEXCEPT
+ 
+nÛxû±
+
+
+	)
+
+255 
+	#SWIFT_NOEXCEPT
+
+
+	)
+
+257 #ià!
+defšed
+(
+SWIFT_C_INLINE_THUNK
+)
+
+258 #ià
+__has_©Œibu‹
+(
+®ways_šlše
+)
+
+259 #ià
+__has_©Œibu‹
+(
+nodebug
+)
+
+260 
+	#SWIFT_C_INLINE_THUNK
+ 
+šlše
+ 
+	`__©Œibu‹__
+((
+®ways_šlše
+)è__©Œibu‹__((
+nodebug
+))
+
+	)
+
+262 
+	#SWIFT_C_INLINE_THUNK
+ 
+šlše
+ 
+	`__©Œibu‹__
+((
+®ways_šlše
+))
+
+	)
+
+265 
+	#SWIFT_C_INLINE_THUNK
+ 
+šlše
+
+
+	)
+
+268 #ià
+defšed
+(
+_WIN32
+)
+
+269 #ià!
+defšed
+(
+SWIFT_IMPORT_STDLIB_SYMBOL
+)
+
+270 
+	#SWIFT_IMPORT_STDLIB_SYMBOL
+ 
+	`__deş¥ec
+(
+dÎimpÜt
+)
+
+	)
+
+273 #ià!
+defšed
+(
+SWIFT_IMPORT_STDLIB_SYMBOL
+)
+
+274 
+	#SWIFT_IMPORT_STDLIB_SYMBOL
+
+
+	)
+
+277 #ià
+defšed
+(
+__OBJC__
+)
+
+278 #ià
+__has_ã©u»
+(
+objc_moduËs
+)
+
+279 #ià
+__has_w¬nšg
+("-Watimport-in-framework-header")
+
+280 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Watimport-in-framework-header"
+
+282 @
+impÜt
+ 
+AµK™
+;
+
+283 @
+impÜt
+ 
+	gFlu‰”MacOS
+;
+
+284 @
+impÜt
+ 
+	gFound©iÚ
+;
+
+288 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wproperty-attribute-mismatch"
+
+289 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wduplicate-method-arg"
+
+290 #ià
+__has_w¬nšg
+("-Wpragma-clang-attribute")
+
+291 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wpragma-clang-attribute"
+
+293 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wunknown-pragmas"
+
+294 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wnullability"
+
+295 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wdollar-in-identifier-extension"
+
+296 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+ignÜed
+ "-Wunsafe-buffer-usage"
+
+298 #ià
+__has_©Œibu‹
+(
+ex‹º®_sourû_symbŞ
+)
+
+299 #´agm¨
+push_maüo
+("any")
+
+300 #undeà
+ªy
+
+
+301 #´agm¨
+şªg
+ 
+©Œibu‹
+ 
+push
+(
+__©Œibu‹__
+((
+ex‹º®_sourû_symbŞ
+(
+Ïnguage
+="Swiá", 
+defšed_š
+="mı_»£¬ch_web",
+g’”©ed_deş¬©iÚ
+))), 
+­¶y_to
+=
+ªy
+(
+funùiÚ
+,,
+objc_š‹rçû
+,
+objc_ÿ‹gÜy
+,
+objc_´ÙocŞ
+))
+
+302 #´agm¨
+pİ_maüo
+("any")
+
+305 #ià
+defšed
+(
+__OBJC__
+)
+
+307 @
+şass
+ 
+	gNSAµliÿtiÚ
+;
+
+308 
+SWIFT_CLASS
+("_TtC16mcp_research_web11AppDelegate")
+
+309 @
+š‹rçû
+ 
+	gAµD–eg©e
+ : 
+Flu‰”AµD–eg©e
+
+
+310 - (
+BOOL
+)
+­¶iÿtiÚShouldT”mš©eAá”La¡WšdowClo£d
+:(
+NSAµliÿtiÚ
+ * 
+_NÚnuÎ
+)
+£nd”
+ 
+SWIFT_WARN_UNUSED_RESULT
+;
+
+311 - (
+	gBOOL
+)
+	g­¶iÿtiÚSuµÜtsSecu»Re¡ÜabËS‹
+:(
+NSAµliÿtiÚ
+ * 
+_NÚnuÎ
+)
+­p
+ 
+SWIFT_WARN_UNUSED_RESULT
+;
+
+312 - (
+nÚnuÎ
+ 
+	gš¡ªûty³
+)
+š™
+ 
+	gOBJC_DESIGNATED_INITIALIZER
+;
+
+313 @
+’d
+
+
+315 
+SWIFT_CLASS
+("_TtC16mcp_research_web17MainFlutterWindow")
+
+316 @
+š‹rçû
+ 
+	gMašFlu‰”Wšdow
+ : 
+NSWšdow
+
+
+317 - ()
+awakeFromNib
+;
+
+318 - (
+nÚnuÎ
+ 
+	gš¡ªûty³
+)
+	gš™W™hCÚ‹ÁReù
+:(
+NSReù
+)
+cÚ‹ÁReù
+ 
+¡yËMask
+:(
+NSWšdowStyËMask
+)
+¡yË
+ 
+backšg
+:(
+NSBackšgStÜeTy³
+)
+backšgStÜeTy³
+ 
+deãr
+:(
+BOOL
+)
+æag
+ 
+OBJC_DESIGNATED_INITIALIZER
+;
+
+319 @
+	g’d
+
+
+322 #ià
+__has_©Œibu‹
+(
+ex‹º®_sourû_symbŞ
+)
+
+323 #´agm¨
+şªg
+ 
+©Œibu‹
+ 
+pİ
+
+
+325 #ià
+defšed
+(
+__ılu¥lus
+)
+
+327 #´agm¨
+şªg
+ 
+dŸgno¡ic
+ 
+pİ
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterAppDelegate.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERAPPDELEGATE_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERAPPDELEGATE_H_
+
+
+	)
+
+8 #impÜˆ<
+Cocß
+/Cocß.
+h
+>
+
+20 
+	gFLUTTER_DARWIN_EXPORT
+
+
+21 @
+´ÙocŞ
+ 
+	gFlu‰”AµLiãcyşeProvid”
+ <
+	gNSObjeù
+>
+
+27 - ()
+	gaddAµliÿtiÚLiãcyşeD–eg©e
+:(
+nÚnuÎ
+ 
+NSObjeù
+<
+Flu‰”AµLiãcyşeD–eg©e
+>*)
+d–eg©e
+;
+
+33 - ()
+	g»moveAµliÿtiÚLiãcyşeD–eg©e
+:(
+nÚnuÎ
+ 
+NSObjeù
+<
+Flu‰”AµLiãcyşeD–eg©e
+>*)
+d–eg©e
+;
+
+35 @
+’d
+
+
+53 
+	gFLUTTER_DARWIN_EXPORT
+
+
+54 @
+š‹rçû
+ 
+	gFlu‰”AµD–eg©e
+ : 
+NSObjeù
+ <
+NSAµliÿtiÚD–eg©e
+, 
+	gFlu‰”AµLiãcyşeProvid”
+>
+
+59 @
+	$´İ”ty
+(
+w—k
+, 
+nÚ©omic
+, 
+nuÎabË
+è
+IBOu‘
+ 
+NSM’u
+* 
+­¶iÿtiÚM’u
+;
+
+65 @
+	$´İ”ty
+(
+w—k
+, 
+nÚ©omic
+, 
+nuÎabË
+è
+IBOu‘
+ 
+NSWšdow
+* 
+mašFlu‰”Wšdow
+;
+
+67 @
+’d
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterAppLifecycleDelegate.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERAPPLIFECYCLEDELEGATE_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERAPPLIFECYCLEDELEGATE_H_
+
+
+	)
+
+8 #impÜˆ<
+Cocß
+/Cocß.
+h
+>
+
+9 
+	~<Found©iÚ/Found©iÚ.h
+>
+
+13 
+	gNS_ASSUME_NONNULL_BEGIN
+
+
+15 #´agm¨
+m¬k
+ -
+
+20 
+	gFLUTTER_DARWIN_EXPORT
+
+
+21 @
+´ÙocŞ
+ 
+	gFlu‰”AµLiãcyşeD–eg©e
+ <
+	gNSObjeù
+>
+
+23 @
+	gİtiÚ®
+
+
+28 - ()
+	ghªdËWlFšishLaunchšg
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+34 - ()
+	ghªdËDidFšishLaunchšg
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+40 - ()
+	ghªdËWlBecomeAùive
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+46 - ()
+	ghªdËDidBecomeAùive
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+52 - ()
+	ghªdËWlResignAùive
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+58 - ()
+	ghªdËDidResignAùive
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+64 - ()
+	ghªdËWlHide
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+70 - ()
+	ghªdËDidHide
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+76 - ()
+	ghªdËWlUnhide
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+82 - ()
+	ghªdËDidUnhide
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+88 - ()
+	ghªdËDidChªgeSü“nP¬am‘”s
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+94 - ()
+	ghªdËDidChªgeOcşusiÚS‹
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+104 - (
+	gBOOL
+)
+	ghªdËO³nURLs
+:(
+NSA¼ay
+<
+NSURL
+*>*)
+u¾s
+;
+
+117 - ()
+	ghªdËWlT”mš©e
+:(
+NSNÙifiÿtiÚ
+*)
+nÙifiÿtiÚ
+;
+
+118 @
+	g’d
+
+
+120 #´agm¨
+m¬k
+ -
+
+125 
+	gFLUTTER_DARWIN_EXPORT
+
+
+126 @
+š‹rçû
+ 
+	gFlu‰”AµLiãcyşeRegi¡¿r
+ : 
+NSObjeù
+ <
+Flu‰”AµLiãcyşeD–eg©e
+>
+
+134 - ()
+addD–eg©e
+:(
+NSObjeù
+<
+Flu‰”AµLiãcyşeD–eg©e
+>*)
+d–eg©e
+;
+
+142 - ()
+	g»moveD–eg©e
+:(
+NSObjeù
+<
+Flu‰”AµLiãcyşeD–eg©e
+>*)
+d–eg©e
+;
+
+143 @
+’d
+
+
+145 
+	gNS_ASSUME_NONNULL_END
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterBinaryMessenger.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERBINARYMESSENGER_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERBINARYMESSENGER_H_
+
+
+	)
+
+8 #impÜˆ<
+Found©iÚ
+/Found©iÚ.
+h
+>
+
+12 
+NS_ASSUME_NONNULL_BEGIN
+
+
+21 (^
+	gFlu‰”Bš¬yR•ly
+)(
+	tNSD©a
+* 
+	t_NuÎabË
+ 
+	t»¶y
+);
+
+30 (^
+	gFlu‰”Bš¬yMes§geHªdËr
+)(
+	tNSD©a
+* 
+	t_NuÎabË
+ 
+	tmes§ge
+, 
+	tFlu‰”Bš¬yR•ly
+ 
+	t»¶y
+);
+
+32 
+št64_t
+ 
+	tFlu‰”Bš¬yMes£ng”CÚÃùiÚ
+;
+
+34 @
+´ÙocŞ
+ 
+	gFlu‰”TaskQueue
+ <
+	gNSObjeù
+>
+
+35 @
+’d
+
+
+48 
+	gFLUTTER_DARWIN_EXPORT
+
+
+49 @
+´ÙocŞ
+ 
+	gFlu‰”Bš¬yMes£ng”
+ <
+	gNSObjeù
+>
+
+51 @
+	gİtiÚ®
+
+
+52 - (
+	gNSObjeù
+<
+	gFlu‰”TaskQueue
+>*)
+	gmakeBackgroundTaskQueue
+;
+
+54 - (
+	gFlu‰”Bš¬yMes£ng”CÚÃùiÚ
+)
+
+55 
+	g£tMes§geHªdËrOnChªÃl
+:(
+NSSŒšg
+*)
+chªÃl
+
+
+56 
+bš¬yMes§geHªdËr
+:(
+Flu‰”Bš¬yMes§geHªdËr
+ 
+_NuÎabË
+)
+hªdËr
+
+
+57 
+skQueue
+:(
+NSObjeù
+<
+Flu‰”TaskQueue
+>* 
+_NuÎabË
+)taskQueue;
+
+59 @
+	g»quœed
+
+
+67 - ()
+	g£ndOnChªÃl
+:(
+NSSŒšg
+*)
+chªÃl
+ 
+mes§ge
+:(
+NSD©a
+* 
+_NuÎabË
+)message;
+
+77 - ()
+	g£ndOnChªÃl
+:(
+NSSŒšg
+*)
+chªÃl
+
+
+78 
+mes§ge
+:(
+NSD©a
+* 
+_NuÎabË
+)message
+
+79 
+bš¬yR•ly
+:(
+Flu‰”Bš¬yR•ly
+ 
+_NuÎabË
+)
+ÿÎback
+;
+
+92 - (
+	gFlu‰”Bš¬yMes£ng”CÚÃùiÚ
+)
+	g£tMes§geHªdËrOnChªÃl
+:(
+NSSŒšg
+*)
+chªÃl
+
+
+93 
+bš¬yMes§geHªdËr
+:
+
+94 (
+Flu‰”Bš¬yMes§geHªdËr
+ 
+_NuÎabË
+)
+hªdËr
+;
+
+103 - ()
+	gş—nUpCÚÃùiÚ
+:(
+Flu‰”Bš¬yMes£ng”CÚÃùiÚ
+)
+cÚÃùiÚ
+;
+
+104 @
+’d
+
+
+105 
+	gNS_ASSUME_NONNULL_END
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterChannels.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERCHANNELS_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERCHANNELS_H_
+
+
+	)
+
+11 
+NS_ASSUME_NONNULL_BEGIN
+
+
+20 (^
+	gFlu‰”R•ly
+)(
+	tid
+ 
+	t_NuÎabË
+ 
+	t»¶y
+);
+
+30 (^
+	gFlu‰”Mes§geHªdËr
+)(
+	tid
+ 
+	t_NuÎabË
+ 
+	tmes§ge
+, 
+	tFlu‰”R•ly
+ 
+	tÿÎback
+);
+
+36 
+	gFLUTTER_DARWIN_EXPORT
+
+
+37 @
+š‹rçû
+ 
+	gFlu‰”BasicMes§geChªÃl
+ : 
+NSObjeù
+
+
+53 + (
+š¡ªûty³
+)
+mes§geChªÃlW™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+54 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+;
+
+70 + (
+	gš¡ªûty³
+)
+	gmes§geChªÃlW™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+71 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+
+
+72 
+codec
+:(
+NSObjeù
+<
+Flu‰”Mes§geCodec
+>*)codec;
+
+88 - (
+	gš¡ªûty³
+)
+	gš™W™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+89 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+
+
+90 
+codec
+:(
+NSObjeù
+<
+Flu‰”Mes§geCodec
+>*)codec;
+
+108 - (
+	gš¡ªûty³
+)
+	gš™W™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+109 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+
+
+110 
+codec
+:(
+NSObjeù
+<
+Flu‰”Mes§geCodec
+>*)codec
+
+111 
+skQueue
+:(
+NSObjeù
+<
+Flu‰”TaskQueue
+>* 
+_NuÎabË
+)taskQueue;
+
+119 - ()
+	g£ndMes§ge
+:(
+id
+ 
+_NuÎabË
+)
+mes§ge
+;
+
+128 - ()
+	g£ndMes§ge
+:(
+id
+ 
+_NuÎabË
+)
+mes§ge
+ 
+»¶y
+:(
+Flu‰”R•ly
+ _NuÎabË)
+ÿÎback
+;
+
+138 - ()
+	g£tMes§geHªdËr
+:(
+Flu‰”Mes§geHªdËr
+ 
+_NuÎabË
+)
+hªdËr
+;
+
+149 + ()
+	g»sizeChªÃlW™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+150 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+
+
+151 
+size
+:(
+NSIÁeg”
+)
+ÃwSize
+;
+
+160 - ()
+	g»sizeChªÃlBufãr
+:(
+NSIÁeg”
+)
+ÃwSize
+;
+
+171 + ()
+	g£tW¬nsOnOv”æow
+:(
+BOOL
+)
+w¬ns
+
+
+172 
+fÜChªÃlW™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+173 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+;
+
+182 - ()
+	g£tW¬nsOnOv”æow
+:(
+BOOL
+)
+w¬ns
+;
+
+184 @
+’d
+
+
+194 (^
+	gFlu‰”ResuÉ
+)(
+	tid
+ 
+	t_NuÎabË
+ 
+	t»suÉ
+);
+
+206 (^
+	gFlu‰”M‘hodC®lHªdËr
+)(
+	tFlu‰”M‘hodC®l
+* 
+	tÿÎ
+, 
+	tFlu‰”ResuÉ
+ 
+	t»suÉ
+);
+
+212 
+FLUTTER_DARWIN_EXPORT
+
+
+213 
+NSObjeù
+ cÚ¡* 
+Flu‰”M‘hodNÙIm¶em’‹d
+;
+
+219 
+	gFLUTTER_DARWIN_EXPORT
+
+
+220 @
+š‹rçû
+ 
+	gFlu‰”M‘hodChªÃl
+ : 
+NSObjeù
+
+
+236 + (
+š¡ªûty³
+)
+m‘hodChªÃlW™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+237 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+;
+
+253 + (
+	gš¡ªûty³
+)
+	gm‘hodChªÃlW™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+254 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+
+
+255 
+codec
+:(
+NSObjeù
+<
+Flu‰”M‘hodCodec
+>*)codec;
+
+271 - (
+	gš¡ªûty³
+)
+	gš™W™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+272 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+
+
+273 
+codec
+:(
+NSObjeù
+<
+Flu‰”M‘hodCodec
+>*)codec;
+
+291 - (
+	gš¡ªûty³
+)
+	gš™W™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+292 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+
+
+293 
+codec
+:(
+NSObjeù
+<
+Flu‰”M‘hodCodec
+>*)codec
+
+294 
+skQueue
+:(
+NSObjeù
+<
+Flu‰”TaskQueue
+>* 
+_NuÎabË
+)taskQueue;
+
+308 - ()
+	gšvokeM‘hod
+:(
+NSSŒšg
+*)
+m‘hod
+ 
+¬gum’ts
+:(
+id
+ 
+_NuÎabË
+)arguments;
+
+323 - ()
+	gšvokeM‘hod
+:(
+NSSŒšg
+*)
+m‘hod
+
+
+324 
+¬gum’ts
+:(
+id
+ 
+_NuÎabË
+)arguments
+
+325 
+»suÉ
+:(
+Flu‰”ResuÉ
+ 
+_NuÎabË
+)
+ÿÎback
+;
+
+334 - ()
+	g£tM‘hodC®lHªdËr
+:(
+Flu‰”M‘hodC®lHªdËr
+ 
+_NuÎabË
+)
+hªdËr
+;
+
+341 - ()
+	g»sizeChªÃlBufãr
+:(
+NSIÁeg”
+)
+ÃwSize
+;
+
+343 @
+’d
+
+
+350 (^
+	gFlu‰”Ev’tSšk
+)(
+	tid
+ 
+	t_NuÎabË
+ 
+	tev’t
+);
+
+355 
+	gFLUTTER_DARWIN_EXPORT
+
+
+356 @
+´ÙocŞ
+ 
+	gFlu‰”SŒ—mHªdËr
+
+
+371 - (
+Flu‰”E¼Ü
+* 
+	g_NuÎabË
+)
+	gÚLi¡’W™hArgum’ts
+:(
+id
+ 
+_NuÎabË
+)
+¬gum’ts
+
+
+372 
+ev’tSšk
+:(
+Flu‰”Ev’tSšk
+)
+ev’ts
+;
+
+387 - (
+Flu‰”E¼Ü
+* 
+	g_NuÎabË
+)
+	gÚCªûlW™hArgum’ts
+:(
+id
+ 
+_NuÎabË
+)
+¬gum’ts
+;
+
+388 @
+’d
+
+
+393 
+FLUTTER_DARWIN_EXPORT
+
+
+394 
+NSObjeù
+ cÚ¡* 
+Flu‰”EndOfEv’tSŒ—m
+;
+
+399 
+	gFLUTTER_DARWIN_EXPORT
+
+
+400 @
+š‹rçû
+ 
+	gFlu‰”Ev’tChªÃl
+ : 
+NSObjeù
+
+
+416 + (
+š¡ªûty³
+)
+ev’tChªÃlW™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+417 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+;
+
+433 + (
+	gš¡ªûty³
+)
+	gev’tChªÃlW™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+434 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+
+
+435 
+codec
+:(
+NSObjeù
+<
+Flu‰”M‘hodCodec
+>*)codec;
+
+451 - (
+	gš¡ªûty³
+)
+	gš™W™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+452 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+
+
+453 
+codec
+:(
+NSObjeù
+<
+Flu‰”M‘hodCodec
+>*)codec;
+
+471 - (
+	gš¡ªûty³
+)
+	gš™W™hName
+:(
+NSSŒšg
+*)
+Çme
+
+
+472 
+bš¬yMes£ng”
+:(
+NSObjeù
+<
+Flu‰”Bš¬yMes£ng”
+>*)
+mes£ng”
+
+
+473 
+codec
+:(
+NSObjeù
+<
+Flu‰”M‘hodCodec
+>*)codec
+
+474 
+skQueue
+:(
+NSObjeù
+<
+Flu‰”TaskQueue
+>* 
+_NuÎabË
+)taskQueue;
+
+483 - ()
+	g£tSŒ—mHªdËr
+:(
+NSObjeù
+<
+Flu‰”SŒ—mHªdËr
+>* 
+_NuÎabË
+)
+hªdËr
+;
+
+484 @
+’d
+
+
+485 
+	gNS_ASSUME_NONNULL_END
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterCodecs.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERCODECS_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERCODECS_H_
+
+
+	)
+
+8 #impÜˆ<
+Found©iÚ
+/Found©iÚ.
+h
+>
+
+12 
+NS_ASSUME_NONNULL_BEGIN
+
+
+17 
+	gFLUTTER_DARWIN_EXPORT
+
+
+18 @
+´ÙocŞ
+ 
+	gFlu‰”Mes§geCodec
+
+
+22 + (
+	gš¡ªûty³
+)
+	gsh¬edIn¡ªû
+;
+
+30 - (
+NSD©a
+* 
+	g_NuÎabË
+)
+	g’code
+:(
+id
+ 
+_NuÎabË
+)
+mes§ge
+;
+
+38 - (
+id
+ 
+	g_NuÎabË
+)
+	gdecode
+:(
+NSD©a
+* 
+_NuÎabË
+)
+mes§ge
+;
+
+39 @
+’d
+
+
+51 
+	gFLUTTER_DARWIN_EXPORT
+
+
+52 @
+š‹rçû
+ 
+	gFlu‰”Bš¬yCodec
+ : 
+NSObjeù
+ <
+Flu‰”Mes§geCodec
+>
+
+53 @
+’d
+
+
+62 
+FLUTTER_DARWIN_EXPORT
+
+
+63 @
+š‹rçû
+ 
+Flu‰”SŒšgCodec
+ : 
+NSObjeù
+ <
+Flu‰”Mes§geCodec
+>
+
+64 @
+’d
+
+
+80 
+FLUTTER_DARWIN_EXPORT
+
+
+81 @
+š‹rçû
+ 
+Flu‰”JSONMes§geCodec
+ : 
+NSObjeù
+ <
+Flu‰”Mes§geCodec
+>
+
+82 @
+’d
+
+
+91 
+FLUTTER_DARWIN_EXPORT
+
+
+92 @
+š‹rçû
+ 
+Flu‰”Snd¬dWr™”
+ : 
+NSObjeù
+
+
+96 - (
+š¡ªûty³
+)
+š™W™hD©a
+:(
+NSMubËD©a
+*)
+d©a
+;
+
+98 - ()
+	gwr™eBy‹
+:(
+UIÁ8
+)
+v®ue
+;
+
+100 - ()
+	gwr™eBy‹s
+:(cÚ¡ *)
+by‹s
+ 
+Ëngth
+:(
+NSUIÁeg”
+)length;
+
+102 - ()
+	gwr™eD©a
+:(
+NSD©a
+*)
+d©a
+;
+
+104 - ()
+	gwr™eSize
+:(
+UIÁ32
+)
+size
+;
+
+106 - ()
+	gwr™eAlignm’t
+:(
+UIÁ8
+)
+®ignm’t
+;
+
+108 - ()
+	gwr™eUTF8
+:(
+NSSŒšg
+*)
+v®ue
+;
+
+121 - ()
+	gwr™eV®ue
+:(
+id
+)
+v®ue
+;
+
+122 @
+’d
+
+
+131 
+	gFLUTTER_DARWIN_EXPORT
+
+
+132 @
+š‹rçû
+ 
+	gFlu‰”Snd¬dR—d”
+ : 
+NSObjeù
+
+
+136 - (
+š¡ªûty³
+)
+š™W™hD©a
+:(
+NSD©a
+*)
+d©a
+;
+
+138 - (
+	gBOOL
+)
+	ghasMÜe
+;
+
+140 - (
+	gUIÁ8
+)
+	g»adBy‹
+;
+
+142 - ()
+	g»adBy‹s
+:(*)
+de¡š©iÚ
+ 
+Ëngth
+:(
+NSUIÁeg”
+)length;
+
+144 - (
+	gNSD©a
+*)
+	g»adD©a
+:(
+NSUIÁeg”
+)
+Ëngth
+;
+
+146 - (
+	gUIÁ32
+)
+	g»adSize
+;
+
+148 - ()
+	g»adAlignm’t
+:(
+UIÁ8
+)
+®ignm’t
+;
+
+150 - (
+	gNSSŒšg
+*)
+	g»adUTF8
+;
+
+156 - (
+nuÎabË
+ 
+	gid
+)
+	g»adV®ue
+;
+
+164 - (
+nuÎabË
+ 
+	gid
+)
+	g»adV®ueOfTy³
+:(
+UIÁ8
+)
+ty³
+;
+
+165 @
+’d
+
+
+171 
+	gFLUTTER_DARWIN_EXPORT
+
+
+172 @
+š‹rçû
+ 
+	gFlu‰”Snd¬dR—d”Wr™”
+ : 
+NSObjeù
+
+
+176 - (
+Flu‰”Snd¬dWr™”
+*)
+wr™”W™hD©a
+:(
+NSMubËD©a
+*)
+d©a
+;
+
+180 - (
+	gFlu‰”Snd¬dR—d”
+*)
+	g»ad”W™hD©a
+:(
+NSD©a
+*)
+d©a
+;
+
+181 @
+’d
+
+
+208 
+	gFLUTTER_DARWIN_EXPORT
+
+
+209 @
+š‹rçû
+ 
+	gFlu‰”Snd¬dMes§geCodec
+ : 
+NSObjeù
+ <
+Flu‰”Mes§geCodec
+>
+
+213 + (
+š¡ªûty³
+)
+codecW™hR—d”Wr™”
+:(
+Flu‰”Snd¬dR—d”Wr™”
+*)
+»ad”Wr™”
+;
+
+214 @
+’d
+
+
+219 
+	gFLUTTER_DARWIN_EXPORT
+
+
+220 @
+š‹rçû
+ 
+	gFlu‰”M‘hodC®l
+ : 
+NSObjeù
+
+
+228 + (
+š¡ªûty³
+)
+m‘hodC®lW™hM‘hodName
+:(
+NSSŒšg
+*)
+m‘hod
+ 
+¬gum’ts
+:(
+id
+ 
+_NuÎabË
+)arguments;
+
+233 @
+	$´İ”ty
+(
+»adÚly
+, 
+nÚ©omic
+è
+NSSŒšg
+* 
+m‘hod
+;
+
+238 @
+	$´İ”ty
+(
+»adÚly
+, 
+nÚ©omic
+, 
+nuÎabË
+è
+id
+ 
+¬gum’ts
+;
+
+239 @
+’d
+
+
+245 
+FLUTTER_DARWIN_EXPORT
+
+
+246 @
+š‹rçû
+ 
+Flu‰”E¼Ü
+ : 
+NSObjeù
+
+
+254 + (
+š¡ªûty³
+)
+”rÜW™hCode
+:(
+NSSŒšg
+*)
+code
+
+
+255 
+mes§ge
+:(
+NSSŒšg
+* 
+_NuÎabË
+)message
+
+256 
+d‘as
+:(
+id
+ 
+_NuÎabË
+)details;
+
+260 @
+	$´İ”ty
+(
+»adÚly
+, 
+nÚ©omic
+è
+NSSŒšg
+* 
+code
+;
+
+265 @
+	$´İ”ty
+(
+»adÚly
+, 
+nÚ©omic
+, 
+nuÎabË
+è
+NSSŒšg
+* 
+mes§ge
+;
+
+270 @
+	$´İ”ty
+(
+»adÚly
+, 
+nÚ©omic
+, 
+nuÎabË
+è
+id
+ 
+d‘as
+;
+
+271 @
+’d
+
+
+281 
+	$NS_ENUM
+(
+	tNSIÁeg”
+, 
+	tFlu‰”Snd¬dD©aTy³
+) {
+
+283 
+Flu‰”Snd¬dD©aTy³UIÁ8
+,
+
+284 
+Flu‰”Snd¬dD©aTy³IÁ32
+,
+
+285 
+Flu‰”Snd¬dD©aTy³IÁ64
+,
+
+286 
+Flu‰”Snd¬dD©aTy³Flßt32
+,
+
+287 
+Flu‰”Snd¬dD©aTy³Flßt64
+,
+
+289 
+	}
+};
+
+299 
+	gFLUTTER_DARWIN_EXPORT
+
+
+300 @
+š‹rçû
+ 
+	gFlu‰”Snd¬dTy³dD©a
+ : 
+NSObjeù
+
+
+307 + (
+š¡ªûty³
+)
+ty³dD©aW™hBy‹s
+:(
+NSD©a
+*)
+d©a
+;
+
+315 + (
+	gš¡ªûty³
+)
+	gty³dD©aW™hIÁ32
+:(
+NSD©a
+*)
+d©a
+;
+
+323 + (
+	gš¡ªûty³
+)
+	gty³dD©aW™hIÁ64
+:(
+NSD©a
+*)
+d©a
+;
+
+331 + (
+	gš¡ªûty³
+)
+	gty³dD©aW™hFlßt32
+:(
+NSD©a
+*)
+d©a
+;
+
+339 + (
+	gš¡ªûty³
+)
+	gty³dD©aW™hFlßt64
+:(
+NSD©a
+*)
+d©a
+;
+
+344 @
+	$´İ”ty
+(
+»adÚly
+, 
+nÚ©omic
+è
+NSD©a
+* 
+d©a
+;
+
+349 @
+	$´İ”ty
+(
+»adÚly
+, 
+nÚ©omic
+, 
+assign
+è
+Flu‰”Snd¬dD©aTy³
+ 
+ty³
+;
+
+354 @
+	$´İ”ty
+(
+»adÚly
+, 
+nÚ©omic
+, 
+assign
+è
+UIÁ32
+ 
+–em’tCouÁ
+;
+
+359 @
+	$´İ”ty
+(
+»adÚly
+, 
+nÚ©omic
+, 
+assign
+è
+UIÁ8
+ 
+–em’tSize
+;
+
+360 @
+’d
+
+
+366 
+FLUTTER_DARWIN_EXPORT
+
+
+367 
+	`FLUTTER_UNAVAILABLE
+("Unavailable on 2018-08-31. Deprecated on 2018-01-09. "
+
+372 @
+š‹rçû
+ 
+Flu‰”Snd¬dBigIÁeg”
+ : 
+NSObjeù
+
+
+373 @
+’d
+
+
+390 
+FLUTTER_DARWIN_EXPORT
+
+
+391 @
+´ÙocŞ
+ 
+Flu‰”M‘hodCodec
+
+
+397 + (
+š¡ªûty³
+)
+sh¬edIn¡ªû
+;
+
+406 - (
+NSD©a
+*)
+’codeM‘hodC®l
+:(
+Flu‰”M‘hodC®l
+*)
+m‘hodC®l
+;
+
+414 - (
+Flu‰”M‘hodC®l
+*)
+decodeM‘hodC®l
+:(
+NSD©a
+*)
+m‘hodC®l
+;
+
+422 - (
+NSD©a
+*)
+’codeSucûssEnv–İe
+:(
+id
+ 
+_NuÎabË
+)
+»suÉ
+;
+
+431 - (
+NSD©a
+*)
+’codeE¼ÜEnv–İe
+:(
+Flu‰”E¼Ü
+*)
+”rÜ
+;
+
+440 - (
+id
+ 
+_NuÎabË
+)
+decodeEnv–İe
+:(
+NSD©a
+*)
+’v–İe
+;
+
+441 @
+’d
+
+
+454 
+FLUTTER_DARWIN_EXPORT
+
+
+455 @
+š‹rçû
+ 
+Flu‰”JSONM‘hodCodec
+ : 
+NSObjeù
+ <
+Flu‰”M‘hodCodec
+>
+
+456 @
+’d
+
+
+468 
+FLUTTER_DARWIN_EXPORT
+
+
+469 @
+š‹rçû
+ 
+Flu‰”Snd¬dM‘hodCodec
+ : 
+NSObjeù
+ <
+Flu‰”M‘hodCodec
+>
+
+473 + (
+š¡ªûty³
+)
+codecW™hR—d”Wr™”
+:(
+Flu‰”Snd¬dR—d”Wr™”
+*)
+»ad”Wr™”
+;
+
+474 @
+’d
+
+
+476 
+NS_ASSUME_NONNULL_END
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterDartProject.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERDARTPROJECT_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERDARTPROJECT_H_
+
+
+	)
+
+8 #impÜˆ<
+Found©iÚ
+/Found©iÚ.
+h
+>
+
+12 
+NS_ASSUME_NONNULL_BEGIN
+
+
+18 
+	gFLUTTER_DARWIN_EXPORT
+
+
+19 @
+š‹rçû
+ 
+	gFlu‰”D¬tProjeù
+ : 
+NSObjeù
+
+
+30 - (
+š¡ªûty³
+)
+š™W™hP»compedD¬tBundË
+:(
+nuÎabË
+ 
+NSBundË
+*)
+bundË
+ 
+NS_DESIGNATED_INITIALIZER
+;
+
+34 - (
+	gš¡ªûty³
+)
+š™FromDeçuÉSourûFÜCÚfigu¿tiÚ
+ 
+	$API_UNAVAILABLE
+(
+macos
+)
+
+35 
+	`FLUTTER_UNAVAILABLE
+("Use -init instead.");
+
+41 + (
+NSSŒšg
+*)
+deçuÉBundËId’tif›r
+;
+
+51 @
+	$´İ”ty
+(
+nÚ©omic
+, 
+nuÎabË
+, 
+cİy
+)
+
+52 
+NSA¼ay
+<
+NSSŒšg
+*>* 
+d¬tEÁrypoštArgum’ts
+ 
+	`API_UNAVAILABLE
+(
+ios
+);
+
+63 + (
+NSSŒšg
+*)
+lookupKeyFÜAs£t
+:(NSSŒšg*)
+as£t
+;
+
+73 + (
+NSSŒšg
+*)
+lookupKeyFÜAs£t
+:(NSSŒšg*)
+as£t
+ 
+äomBundË
+:(
+nuÎabË
+ 
+NSBundË
+*)
+bundË
+;
+
+83 + (
+NSSŒšg
+*)
+lookupKeyFÜAs£t
+:(NSSŒšg*)
+as£t
+ 
+äomPackage
+:(NSSŒšg*)
+·ckage
+;
+
+94 + (
+NSSŒšg
+*)
+lookupKeyFÜAs£t
+:(NSSŒšg*)
+as£t
+
+
+95 
+äomPackage
+:(
+NSSŒšg
+*)
+·ckage
+
+
+96 
+äomBundË
+:(
+nuÎabË
+ 
+NSBundË
+*)
+bundË
+;
+
+98 @
+’d
+
+
+100 
+NS_ASSUME_NONNULL_END
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterEngine.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERENGINE_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERENGINE_H_
+
+
+	)
+
+8 #impÜˆ<
+Found©iÚ
+/Found©iÚ.
+h
+>
+
+10 
+	~<¡dšt.h
+>
+
+22 @
+şass
+ 
+	gFlu‰”V›wCÚŒŞËr
+;
+
+30 
+	gFLUTTER_DARWIN_EXPORT
+
+
+31 @
+š‹rçû
+ 
+	gFlu‰”Engše
+
+
+32 : 
+NSObjeù
+ <
+Flu‰”Textu»Regi¡ry
+, 
+	gFlu‰”PlugšRegi¡ry
+, 
+	gFlu‰”AµLiãcyşeD–eg©e
+>
+
+41 - (
+nÚnuÎ
+ 
+	gš¡ªûty³
+)
+	gš™W™hName
+:ÒÚnuÎ 
+NSSŒšg
+*)
+Ïb–P»fix
+
+
+42 
+´ojeù
+:(
+nuÎabË
+ 
+Flu‰”D¬tProjeù
+*)project;
+
+51 - (
+nÚnuÎ
+ 
+	gš¡ªûty³
+)
+	gš™W™hName
+:ÒÚnuÎ 
+NSSŒšg
+*)
+Ïb–P»fix
+
+
+52 
+´ojeù
+:(
+nuÎabË
+ 
+Flu‰”D¬tProjeù
+*)project
+
+53 
+®lowH—dËssExecutiÚ
+:(
+BOOL
+ïÎowH—dËssExecutiÚ 
+NS_DESIGNATED_INITIALIZER
+;
+
+55 - (
+nÚnuÎ
+ 
+	gš¡ªûty³
+)
+š™
+ 
+	gNS_UNAVAILABLE
+;
+
+71 - (
+	gBOOL
+)
+	grunW™hEÁrypošt
+:(
+nuÎabË
+ 
+NSSŒšg
+*)
+’Œypošt
+;
+
+87 @
+	$´İ”ty
+(
+nÚ©omic
+, 
+nuÎabË
+, 
+w—k
+è
+Flu‰”V›wCÚŒŞËr
+* 
+v›wCÚŒŞËr
+;
+
+92 @
+	$´İ”ty
+(
+nÚ©omic
+, 
+nÚnuÎ
+, 
+»adÚly
+è
+id
+<
+Flu‰”Bš¬yMes£ng”
+> 
+bš¬yMes£ng”
+;
+
+99 - ()
+shutDownEngše
+;
+
+101 @
+’d
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterHourFormat.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERHOURFORMAT_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERHOURFORMAT_H_
+
+
+	)
+
+8 #impÜˆ<
+Found©iÚ
+/Found©iÚ.
+h
+>
+
+10 @
+š‹rçû
+ 
+	gFlu‰”HourFÜm©
+ : 
+NSObjeù
+
+
+11 + (
+BOOL
+)
+isAlwaysU£24HourFÜm©
+;
+
+13 @
+	g’d
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterMacOS.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERMACOS_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERMACOS_H_
+
+
+	)
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterMacros.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERMACROS_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERMACROS_H_
+
+
+	)
+
+8 #ià
+defšed
+(
+FLUTTER_FRAMEWORK
+)
+
+10 
+	#FLUTTER_DARWIN_EXPORT
+ 
+	`__©Œibu‹__
+((
+	`visib™y
+("deçuÉ")))
+
+	)
+
+14 
+	#FLUTTER_DARWIN_EXPORT
+
+
+	)
+
+18 #iâdeà
+NS_ASSUME_NONNULL_BEGIN
+
+
+19 
+	#NS_ASSUME_NONNULL_BEGIN
+ 
+	`_P¿gma
+("şªg‡ssume_nÚnuÎ begš")
+
+	)
+
+20 
+	#NS_ASSUME_NONNULL_END
+ 
+	`_P¿gma
+("şªg‡ssume_nÚnuÎƒnd")
+
+	)
+
+30 
+	#FLUTTER_DEPRECATED
+(
+msg
+è
+	`__©Œibu‹__
+((
+	`__d•»ÿ‹d__
+(msg)))
+
+	)
+
+38 
+	#FLUTTER_UNAVAILABLE
+(
+msg
+è
+	`__©Œibu‹__
+((
+	`__uÇvaabË__
+(msg)))
+
+	)
+
+40 #ià
+__has_ã©u»
+(
+objc_¬c
+)
+
+41 
+	#FLUTTER_ASSERT_ARC
+
+
+	)
+
+42 
+	#FLUTTER_ASSERT_NOT_ARC
+ #”rÜ 
+ARC
+ 
+mu¡
+ 
+be
+ 
+di§bËd
+ !
+
+	)
+
+44 
+	#FLUTTER_ASSERT_ARC
+ #”rÜ 
+ARC
+ 
+mu¡
+ 
+be
+ 
+’abËd
+ !
+
+	)
+
+45 
+	#FLUTTER_ASSERT_NOT_ARC
+
+
+	)
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterPlatformViews.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERPLATFORMVIEWS_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERPLATFORMVIEWS_H_
+
+
+	)
+
+8 #impÜˆ<
+AµK™
+/AµK™.
+h
+>
+
+13 @
+´ÙocŞ
+ 
+	gFlu‰”PÏtfÜmV›wFaùÜy
+ <
+	gNSObjeù
+>
+
+29 - (
+nÚnuÎ
+ 
+	gNSV›w
+*)
+	gü—‹W™hV›wId’tif›r
+:(
+št64_t
+)
+v›wId
+ 
+¬gum’ts
+:(
+nuÎabË
+ 
+id
+)
+¬gs
+;
+
+36 @
+	gİtiÚ®
+
+
+37 - (
+nuÎabË
+ 
+	gNSObjeù
+<
+	gFlu‰”Mes§geCodec
+>*)
+	gü—‹ArgsCodec
+;
+
+38 @
+	g’d
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterPluginMacOS.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERPLUGINMACOS_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERPLUGINMACOS_H_
+
+
+	)
+
+8 #impÜˆ<
+Found©iÚ
+/Found©iÚ.
+h
+>
+
+15 
+	gNS_ASSUME_NONNULL_BEGIN
+
+
+17 @
+´ÙocŞ
+ 
+	gFlu‰”PlugšRegi¡¿r
+;
+
+28 
+	gFLUTTER_DARWIN_EXPORT
+
+
+29 @
+´ÙocŞ
+ 
+	gFlu‰”Plugš
+ <
+	gNSObjeù
+, 
+	gFlu‰”AµLiãcyşeD–eg©e
+>
+
+35 + ()
+	g»gi¡”W™hRegi¡¿r
+:(
+id
+<
+Flu‰”PlugšRegi¡¿r
+>)
+»gi¡¿r
+;
+
+37 @
+	gİtiÚ®
+
+
+50 - ()
+	ghªdËM‘hodC®l
+:(
+Flu‰”M‘hodC®l
+*)
+ÿÎ
+ 
+»suÉ
+:(
+Flu‰”ResuÉ
+)result;
+
+52 
+	gNS_ASSUME_NONNULL_END
+
+
+54 @
+	g’d
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterPluginRegistrarMacOS.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERPLUGINREGISTRARMACOS_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERPLUGINREGISTRARMACOS_H_
+
+
+	)
+
+8 #impÜˆ<
+Cocß
+/Cocß.
+h
+>
+
+27 
+	gFLUTTER_DARWIN_EXPORT
+
+
+28 @
+´ÙocŞ
+ 
+	gFlu‰”PlugšRegi¡¿r
+ <
+	gNSObjeù
+>
+
+33 @
+	$´İ”ty
+(
+nÚnuÎ
+, 
+»adÚly
+è
+id
+<
+Flu‰”Bš¬yMes£ng”
+> 
+mes£ng”
+;
+
+39 @
+	$´İ”ty
+(
+nÚnuÎ
+, 
+»adÚly
+è
+id
+<
+Flu‰”Textu»Regi¡ry
+> 
+‹xtu»s
+;
+
+50 @
+	$´İ”ty
+(
+nuÎabË
+, 
+»adÚly
+è
+NSV›w
+* 
+v›w
+;
+
+55 - ()
+addM‘hodC®lD–eg©e
+:(
+nÚnuÎ
+ 
+id
+<
+Flu‰”Plugš
+>)
+d–eg©e
+
+
+56 
+chªÃl
+:(
+nÚnuÎ
+ 
+Flu‰”M‘hodChªÃl
+*)channel;
+
+63 - ()
+addAµliÿtiÚD–eg©e
+:(
+nÚnuÎ
+ 
+NSObjeù
+<
+Flu‰”AµLiãcyşeD–eg©e
+>*)
+d–eg©e
+;
+
+74 - ()
+»gi¡”V›wFaùÜy
+:(
+nÚnuÎ
+ 
+NSObjeù
+<
+Flu‰”PÏtfÜmV›wFaùÜy
+>*)
+çùÜy
+
+
+75 
+w™hId
+:(
+nÚnuÎ
+ 
+NSSŒšg
+*)
+çùÜyId
+;
+
+89 - ()
+publish
+:(
+nÚnuÎ
+ 
+NSObjeù
+*)
+v®ue
+;
+
+98 - (
+nÚnuÎ
+ 
+NSSŒšg
+*)
+lookupKeyFÜAs£t
+:ÒÚnuÎ NSSŒšg*)
+as£t
+;
+
+109 - (
+nÚnuÎ
+ 
+NSSŒšg
+*)
+lookupKeyFÜAs£t
+:ÒÚnuÎ NSSŒšg*)
+as£t
+
+
+110 
+äomPackage
+:(
+nÚnuÎ
+ 
+NSSŒšg
+*)
+·ckage
+;
+
+112 @
+’d
+
+
+130 @
+´ÙocŞ
+ 
+Flu‰”PlugšRegi¡ry
+ <
+NSObjeù
+>
+
+137 - (
+nÚnuÎ
+ 
+id
+<
+Flu‰”PlugšRegi¡¿r
+>)
+»gi¡¿rFÜPlugš
+:ÒÚnuÎ 
+NSSŒšg
+*)
+¶ugšKey
+;
+
+147 - (
+nuÎabË
+ 
+NSObjeù
+*)
+v®uePublishedByPlugš
+:(
+nÚnuÎ
+ 
+NSSŒšg
+*)
+¶ugšKey
+;
+
+149 @
+’d
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterTexture.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERTEXTURE_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERTEXTURE_H_
+
+
+	)
+
+8 #impÜˆ<
+CÜeMedŸ
+/CÜeMedŸ.
+h
+>
+
+9 #impÜˆ<
+Found©iÚ
+/Found©iÚ.
+h
+>
+
+13 
+NS_ASSUME_NONNULL_BEGIN
+
+
+15 
+	gFLUTTER_DARWIN_EXPORT
+
+
+21 @
+´ÙocŞ
+ 
+	gFlu‰”Textu»
+ <
+	gNSObjeù
+>
+
+30 - (
+CVPix–BufãrRef
+ 
+	g_NuÎabË
+)
+	gcİyPix–Bufãr
+;
+
+37 @
+	gİtiÚ®
+
+
+38 - ()
+	gÚTextu»UÄegi¡”ed
+:(
+NSObjeù
+<
+Flu‰”Textu»
+>*)
+‹xtu»
+;
+
+39 @
+’d
+
+
+41 
+	gFLUTTER_DARWIN_EXPORT
+
+
+45 @
+´ÙocŞ
+ 
+	gFlu‰”Textu»Regi¡ry
+ <
+	gNSObjeù
+>
+
+51 - (
+	gšt64_t
+)
+	g»gi¡”Textu»
+:(
+NSObjeù
+<
+Flu‰”Textu»
+>*)
+‹xtu»
+;
+
+57 - ()
+	g‹xtu»F¿meAvaabË
+:(
+št64_t
+)
+‹xtu»Id
+;
+
+64 - ()
+	guÄegi¡”Textu»
+:(
+št64_t
+)
+‹xtu»Id
+;
+
+65 @
+’d
+
+
+67 
+	gNS_ASSUME_NONNULL_END
+
+
+	@build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterViewController.h
+
+5 #iâdeà
+FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERVIEWCONTROLLER_H_
+
+
+6 
+	#FLUTTER_SHELL_PLATFORM_DARWIN_MACOS_FRAMEWORK_HEADERS_FLUTTERVIEWCONTROLLER_H_
+
+
+	)
+
+8 #impÜˆ<
+Cocß
+/Cocß.
+h
+>
+
+21 
+št64_t
+ 
+	tFlu‰”V›wId’tif›r
+;
+
+26 
+	$NS_ENUM
+(
+	tNSIÁeg”
+, 
+	tFlu‰”Mou£T¿ckšgMode
+) {
+
+28 
+kFlu‰”Mou£T¿ckšgModeNÚe
+ = 0,
+
+30 
+Flu‰”Mou£T¿ckšgModeNÚe
+ 
+	`__©Œibu‹__
+((
+d•»ÿ‹d
+)èğ
+kFlu‰”Mou£T¿ckšgModeNÚe
+,
+
+33 
+kFlu‰”Mou£T¿ckšgModeInKeyWšdow
+ = 1,
+
+35 
+Flu‰”Mou£T¿ckšgModeInKeyWšdow
+
+
+36 
+	`__©Œibu‹__
+((
+d•»ÿ‹d
+)èğ
+kFlu‰”Mou£T¿ckšgModeInKeyWšdow
+,
+
+39 
+kFlu‰”Mou£T¿ckšgModeInAùiveAµ
+ = 2,
+
+41 
+Flu‰”Mou£T¿ckšgModeInAùiveAµ
+
+
+42 
+	`__©Œibu‹__
+((
+d•»ÿ‹d
+)èğ
+kFlu‰”Mou£T¿ckšgModeInAùiveAµ
+,
+
+45 
+kFlu‰”Mou£T¿ckšgModeAlways
+ = 3,
+
+47 
+Flu‰”Mou£T¿ckšgModeAlways
+ 
+	`__©Œibu‹__
+((
+d•»ÿ‹d
+)èğ
+kFlu‰”Mou£T¿ckšgModeAlways
+,
+
+48 
+	}
+};
+
+72 
+	gFLUTTER_DARWIN_EXPORT
+
+
+73 @
+š‹rçû
+ 
+	gFlu‰”V›wCÚŒŞËr
+ : 
+NSV›wCÚŒŞËr
+ <
+Flu‰”PlugšRegi¡ry
+>
+
+78 @
+	$´İ”ty
+(
+nÚ©omic
+, 
+nÚnuÎ
+, 
+»adÚly
+è
+Flu‰”Engše
+* 
+’gše
+;
+
+84 @
+	$´İ”ty
+(
+nÚ©omic
+è
+Flu‰”Mou£T¿ckšgMode
+ 
+mou£T¿ckšgMode
+;
+
+98 - (
+nÚnuÎ
+ 
+š¡ªûty³
+)
+š™W™hProjeù
+:(
+nuÎabË
+ 
+Flu‰”D¬tProjeù
+*)
+´ojeù
+
+
+99 
+NS_DESIGNATED_INITIALIZER
+;
+
+101 - (
+nÚnuÎ
+ 
+š¡ªûty³
+)
+š™W™hNibName
+:(
+nuÎabË
+ 
+NSSŒšg
+*)
+nibNameOrN
+
+
+102 
+bundË
+:(
+nuÎabË
+ 
+NSBundË
+*)
+nibBundËOrN
+
+
+103 
+NS_DESIGNATED_INITIALIZER
+;
+
+104 - (
+nÚnuÎ
+ 
+š¡ªûty³
+)
+š™W™hCod”
+:ÒÚnuÎ 
+NSCod”
+*)
+nibNameOrN
+ 
+NS_DESIGNATED_INITIALIZER
+;
+
+117 - (
+nÚnuÎ
+ 
+š¡ªûty³
+)
+š™W™hEngše
+:ÒÚnuÎ 
+Flu‰”Engše
+*)
+’gše
+
+
+118 
+nibName
+:(
+nuÎabË
+ 
+NSSŒšg
+*)nibName
+
+119 
+bundË
+:(
+nuÎabË
+ 
+NSBundË
+*)
+nibBundË
+ 
+NS_DESIGNATED_INITIALIZER
+;
+
+130 @
+	$´İ”ty
+(
+nÚ©omic
+, 
+»adÚly
+è
+Flu‰”V›wId’tif›r
+ 
+v›wId’tif›r
+;
+
+135 - (
+BOOL
+)
+©ched
+;
+
+143 - ()
+ÚP»EngšeRe¡¬t
+;
+
+153 - (
+nÚnuÎ
+ 
+NSSŒšg
+*)
+lookupKeyFÜAs£t
+:ÒÚnuÎ NSSŒšg*)
+as£t
+;
+
+165 - (
+nÚnuÎ
+ 
+NSSŒšg
+*)
+lookupKeyFÜAs£t
+:ÒÚnuÎ NSSŒšg*)
+as£t
+
+
+166 
+äomPackage
+:(
+nÚnuÎ
+ 
+NSSŒšg
+*)
+·ckage
+;
+
+210 @
+	$´İ”ty
+(
+»adwr™e
+, 
+nÚ©omic
+, 
+nuÎabË
+, 
+cİy
+è
+NSCŞÜ
+* 
+backgroundCŞÜ
+;
+
+212 @
+’d
+
+
+	@ios/Runner/GeneratedPluginRegistrant.h
+
+7 #iâdeà
+G’”©edPlugšRegi¡¿Á_h
+
+
+8 
+	#G’”©edPlugšRegi¡¿Á_h
+
+
+	)
+
+10 #impÜˆ<
+Flu‰”
+/Flu‰”.
+h
+>
+
+12 
+	gNS_ASSUME_NONNULL_BEGIN
+
+
+14 @
+š‹rçû
+ 
+	gG’”©edPlugšRegi¡¿Á
+ : 
+NSObjeù
+
+
+15 + ()
+»gi¡”W™hRegi¡ry
+:(
+NSObjeù
+<
+Flu‰”PlugšRegi¡ry
+>*)
+»gi¡ry
+;
+
+16 @
+’d
+
+
+18 
+	gNS_ASSUME_NONNULL_END
+
+
+	@ios/Runner/Runner-Bridging-Header.h
+
+	@linux/flutter/generated_plugin_registrant.cc
+
+7 
+	~"g’”©ed_¶ugš_»gi¡¿Á.h
+"
+
+10 
+	$æ_»gi¡”_¶ugšs
+(
+FlPlugšRegi¡ry
+* 
+»gi¡ry
+) {
+
+11 
+	}
+}
+
+	@linux/flutter/generated_plugin_registrant.h
+
+7 #iâdeà
+GENERATED_PLUGIN_REGISTRANT_
+
+
+8 
+	#GENERATED_PLUGIN_REGISTRANT_
+
+
+	)
+
+10 
+	~<æu‰”_lšux/æu‰”_lšux.h
+>
+
+13 
+æ_»gi¡”_¶ugšs
+(
+FlPlugšRegi¡ry
+* 
+»gi¡ry
+);
+
+	@linux/runner/main.cc
+
+1 
+	~"my_­¶iÿtiÚ.h
+"
+
+3 
+	$maš
+(
+¬gc
+, ** 
+¬gv
+) {
+
+4 
+	`g_autİŒ
+(
+MyAµliÿtiÚ
+è
+­p
+ = 
+	`my_­¶iÿtiÚ_Ãw
+();
+
+5  
+	`g_­¶iÿtiÚ_run
+(
+	`G_APPLICATION
+(
+­p
+), 
+¬gc
+, 
+¬gv
+);
+
+6 
+	}
+}
+
+	@linux/runner/my_application.cc
+
+1 
+	~"my_­¶iÿtiÚ.h
+"
+
+3 
+	~<æu‰”_lšux/æu‰”_lšux.h
+>
+
+4 #ifdeà
+GDK_WINDOWING_X11
+
+
+5 
+	~<gdk/gdkx.h
+>
+
+8 
+	~"æu‰”/g’”©ed_¶ugš_»gi¡¿Á.h
+"
+
+10 
+	s_MyAµliÿtiÚ
+ {
+
+11 
+GtkAµliÿtiÚ
+ 
+	m·»Á_š¡ªû
+;
+
+12 ** 
+	md¬t_’Œypošt_¬gum’ts
+;
+
+15 
+	$G_DEFINE_TYPE
+(
+MyAµliÿtiÚ
+, 
+my_­¶iÿtiÚ
+, 
+GTK_TYPE_APPLICATION
+)
+
+18 
+	$my_­¶iÿtiÚ_aùiv©e
+(
+GAµliÿtiÚ
+* 
+­¶iÿtiÚ
+) {
+
+19 
+MyAµliÿtiÚ
+* 
+£lf
+ = 
+	`MY_APPLICATION
+(
+­¶iÿtiÚ
+);
+
+20 
+GtkWšdow
+* 
+wšdow
+ =
+
+21 
+	`GTK_WINDOW
+(
+	`gtk_­¶iÿtiÚ_wšdow_Ãw
+(
+	`GTK_APPLICATION
+(
+­¶iÿtiÚ
+)));
+
+30 
+gboŞ—n
+ 
+u£_h—d”_b¬
+ = 
+TRUE
+;
+
+31 #ifdeà
+GDK_WINDOWING_X11
+
+
+32 
+GdkSü“n
+* 
+sü“n
+ = 
+	`gtk_wšdow_g‘_sü“n
+(
+wšdow
+);
+
+33 ià(
+	`GDK_IS_X11_SCREEN
+(
+sü“n
+)) {
+
+34 cÚ¡ 
+gch¬
+* 
+wm_Çme
+ = 
+	`gdk_x11_sü“n_g‘_wšdow_mªag”_Çme
+(
+sü“n
+);
+
+35 ià(
+	`g_¡rcmp0
+(
+wm_Çme
+, "GNOME Shell") != 0) {
+
+36 
+u£_h—d”_b¬
+ = 
+FALSE
+;
+
+40 ià(
+u£_h—d”_b¬
+) {
+
+41 
+GtkH—d”B¬
+* 
+h—d”_b¬
+ = 
+	`GTK_HEADER_BAR
+(
+	`gtk_h—d”_b¬_Ãw
+());
+
+42 
+	`gtk_widg‘_show
+(
+	`GTK_WIDGET
+(
+h—d”_b¬
+));
+
+43 
+	`gtk_h—d”_b¬_£t_t™Ë
+(
+h—d”_b¬
+, "mcp_research_web");
+
+44 
+	`gtk_h—d”_b¬_£t_show_şo£_bu‰Ú
+(
+h—d”_b¬
+, 
+TRUE
+);
+
+45 
+	`gtk_wšdow_£t_t™Ëb¬
+(
+wšdow
+, 
+	`GTK_WIDGET
+(
+h—d”_b¬
+));
+
+47 
+	`gtk_wšdow_£t_t™Ë
+(
+wšdow
+, "mcp_research_web");
+
+50 
+	`gtk_wšdow_£t_deçuÉ_size
+(
+wšdow
+, 1280, 720);
+
+51 
+	`gtk_widg‘_show
+(
+	`GTK_WIDGET
+(
+wšdow
+));
+
+53 
+	`g_autİŒ
+(
+FlD¬tProjeù
+è
+´ojeù
+ = 
+	`æ_d¬t_´ojeù_Ãw
+();
+
+54 
+	`æ_d¬t_´ojeù_£t_d¬t_’Œypošt_¬gum’ts
+(
+´ojeù
+, 
+£lf
+->
+d¬t_’Œypošt_¬gum’ts
+);
+
+56 
+FlV›w
+* 
+v›w
+ = 
+	`æ_v›w_Ãw
+(
+´ojeù
+);
+
+57 
+	`gtk_widg‘_show
+(
+	`GTK_WIDGET
+(
+v›w
+));
+
+58 
+	`gtk_cÚš”_add
+(
+	`GTK_CONTAINER
+(
+wšdow
+), 
+	`GTK_WIDGET
+(
+v›w
+));
+
+60 
+	`æ_»gi¡”_¶ugšs
+(
+	`FL_PLUGIN_REGISTRY
+(
+v›w
+));
+
+62 
+	`gtk_widg‘_g¿b_focus
+(
+	`GTK_WIDGET
+(
+v›w
+));
+
+63 
+	}
+}
+
+66 
+gboŞ—n
+ 
+	$my_­¶iÿtiÚ_loÿl_commªd_lše
+(
+GAµliÿtiÚ
+* 
+­¶iÿtiÚ
+, 
+gch¬
+*** 
+¬gum’ts
+, * 
+ex™_¡©us
+) {
+
+67 
+MyAµliÿtiÚ
+* 
+£lf
+ = 
+	`MY_APPLICATION
+(
+­¶iÿtiÚ
+);
+
+69 
+£lf
+->
+d¬t_’Œypošt_¬gum’ts
+ = 
+	`g_¡rdupv
+(*
+¬gum’ts
+ + 1);
+
+71 
+	`g_autİŒ
+(
+GE¼Ü
+è
+”rÜ
+ = 
+nuÎ±r
+;
+
+72 ià(!
+	`g_­¶iÿtiÚ_»gi¡”
+(
+­¶iÿtiÚ
+, 
+nuÎ±r
+, &
+”rÜ
+)) {
+
+73 
+	`g_w¬nšg
+("FaedØ»gi¡”: %s", 
+”rÜ
+->
+mes§ge
+);
+
+74 *
+ex™_¡©us
+ = 1;
+
+75  
+TRUE
+;
+
+78 
+	`g_­¶iÿtiÚ_aùiv©e
+(
+­¶iÿtiÚ
+);
+
+79 *
+ex™_¡©us
+ = 0;
+
+81  
+TRUE
+;
+
+82 
+	}
+}
+
+85 
+	$my_­¶iÿtiÚ_¡¬tup
+(
+GAµliÿtiÚ
+* 
+­¶iÿtiÚ
+) {
+
+90 
+	`G_APPLICATION_CLASS
+(
+my_­¶iÿtiÚ_·»Á_şass
+)->
+	`¡¬tup
+(
+­¶iÿtiÚ
+);
+
+91 
+	}
+}
+
+94 
+	$my_­¶iÿtiÚ_shutdown
+(
+GAµliÿtiÚ
+* 
+­¶iÿtiÚ
+) {
+
+99 
+	`G_APPLICATION_CLASS
+(
+my_­¶iÿtiÚ_·»Á_şass
+)->
+	`shutdown
+(
+­¶iÿtiÚ
+);
+
+100 
+	}
+}
+
+103 
+	$my_­¶iÿtiÚ_di¥o£
+(
+GObjeù
+* 
+objeù
+) {
+
+104 
+MyAµliÿtiÚ
+* 
+£lf
+ = 
+	`MY_APPLICATION
+(
+objeù
+);
+
+105 
+	`g_ş—r_poš‹r
+(&
+£lf
+->
+d¬t_’Œypošt_¬gum’ts
+, 
+g_¡rä“v
+);
+
+106 
+	`G_OBJECT_CLASS
+(
+my_­¶iÿtiÚ_·»Á_şass
+)->
+	`di¥o£
+(
+objeù
+);
+
+107 
+	}
+}
+
+109 
+	$my_­¶iÿtiÚ_şass_š™
+(
+MyAµliÿtiÚCÏss
+* 
+kÏss
+) {
+
+110 
+	`G_APPLICATION_CLASS
+(
+kÏss
+)->
+aùiv©e
+ = 
+my_­¶iÿtiÚ_aùiv©e
+;
+
+111 
+	`G_APPLICATION_CLASS
+(
+kÏss
+)->
+loÿl_commªd_lše
+ = 
+my_­¶iÿtiÚ_loÿl_commªd_lše
+;
+
+112 
+	`G_APPLICATION_CLASS
+(
+kÏss
+)->
+¡¬tup
+ = 
+my_­¶iÿtiÚ_¡¬tup
+;
+
+113 
+	`G_APPLICATION_CLASS
+(
+kÏss
+)->
+shutdown
+ = 
+my_­¶iÿtiÚ_shutdown
+;
+
+114 
+	`G_OBJECT_CLASS
+(
+kÏss
+)->
+di¥o£
+ = 
+my_­¶iÿtiÚ_di¥o£
+;
+
+115 
+	}
+}
+
+117 
+	$my_­¶iÿtiÚ_š™
+(
+MyAµliÿtiÚ
+* 
+£lf
+è{
+	}
+}
+
+119 
+MyAµliÿtiÚ
+* 
+	$my_­¶iÿtiÚ_Ãw
+() {
+
+124 
+	`g_£t_´gÇme
+(
+APPLICATION_ID
+);
+
+126  
+	`MY_APPLICATION
+(
+	`g_objeù_Ãw
+(
+	`my_­¶iÿtiÚ_g‘_ty³
+(),
+
+127 "­¶iÿtiÚ-id", 
+APPLICATION_ID
+,
+
+128 "æags", 
+G_APPLICATION_NON_UNIQUE
+,
+
+129 
+nuÎ±r
+));
+
+130 
+	}
+}
+
+	@linux/runner/my_application.h
+
+1 #iâdeà
+FLUTTER_MY_APPLICATION_H_
+
+
+2 
+	#FLUTTER_MY_APPLICATION_H_
+
+
+	)
+
+4 
+	~<gtk/gtk.h
+>
+
+6 
+	$G_DECLARE_FINAL_TYPE
+(
+MyAµliÿtiÚ
+, 
+my_­¶iÿtiÚ
+, 
+MY
+, 
+APPLICATION
+,
+
+7 
+GtkAµliÿtiÚ
+)
+
+16 
+MyAµliÿtiÚ
+* 
+	`my_­¶iÿtiÚ_Ãw
+();
+
+	@windows/flutter/generated_plugin_registrant.cc
+
+7 
+	~"g’”©ed_¶ugš_»gi¡¿Á.h
+"
+
+10 
+	$Regi¡”Plugšs
+(
+æu‰”
+::
+PlugšRegi¡ry
+* 
+»gi¡ry
+) {
+
+11 
+	}
+}
+
+	@windows/flutter/generated_plugin_registrant.h
+
+7 #iâdeà
+GENERATED_PLUGIN_REGISTRANT_
+
+
+8 
+	#GENERATED_PLUGIN_REGISTRANT_
+
+
+	)
+
+10 
+	~<æu‰”/¶ugš_»gi¡ry.h
+>
+
+13 
+Regi¡”Plugšs
+(
+æu‰”
+::
+PlugšRegi¡ry
+* 
+»gi¡ry
+);
+
+	@windows/runner/flutter_window.cpp
+
+1 
+	~"æu‰”_wšdow.h
+"
+
+3 
+	~<İtiÚ®
+>
+
+5 
+	~"æu‰”/g’”©ed_¶ugš_»gi¡¿Á.h
+"
+
+7 
+	gFlu‰”Wšdow
+::
+	$Flu‰”Wšdow
+(cÚ¡ 
+æu‰”
+::
+D¬tProjeù
+& 
+´ojeù
+)
+
+8 : 
+	$´ojeù_
+(
+´ojeù
+è{
+	}
+}
+
+10 
+Flu‰”Wšdow
+::~
+	$Flu‰”Wšdow
+(è{
+	}
+}
+
+12 
+boŞ
+ 
+Flu‰”Wšdow
+::
+	$OnC»©e
+() {
+
+13 ià(!
+Wš32Wšdow
+::
+	`OnC»©e
+()) {
+
+14  
+çl£
+;
+
+17 
+RECT
+ 
+äame
+ = 
+	`G‘Cl›ÁA»a
+();
+
+21 
+æu‰”_cÚŒŞËr_
+ = 
+¡d
+::
+make_unique
+<
+æu‰”
+::
+Flu‰”V›wCÚŒŞËr
+>(
+
+22 
+äame
+.
+right
+ - f¿me.
+Ëá
+, f¿me.
+bÙtom
+ - f¿me.
+tİ
+, 
+´ojeù_
+);
+
+24 ià(!
+æu‰”_cÚŒŞËr_
+->
+	`’gše
+(è|| !æu‰”_cÚŒŞËr_->
+	`v›w
+()) {
+
+25  
+çl£
+;
+
+27 
+	`Regi¡”Plugšs
+(
+æu‰”_cÚŒŞËr_
+->
+	`’gše
+());
+
+28 
+	`S‘ChdCÚ‹Á
+(
+æu‰”_cÚŒŞËr_
+->
+	`v›w
+()->
+	`G‘N©iveWšdow
+());
+
+30 
+æu‰”_cÚŒŞËr_
+->
+	`’gše
+()->
+	`S‘NextF¿meC®lback
+([&]() {
+
+31 
+this
+->
+	`Show
+();
+
+37 
+æu‰”_cÚŒŞËr_
+->
+	`FÜûRed¿w
+();
+
+39  
+Œue
+;
+
+40 
+	}
+}
+
+42 
+	gFlu‰”Wšdow
+::
+	$OnDe¡roy
+() {
+
+43 ià(
+æu‰”_cÚŒŞËr_
+) {
+
+44 
+æu‰”_cÚŒŞËr_
+ = 
+nuÎ±r
+;
+
+47 
+Wš32Wšdow
+::
+	`OnDe¡roy
+();
+
+48 
+	}
+}
+
+50 
+LRESULT
+
+
+51 
+	gFlu‰”Wšdow
+::
+	$Mes§geHªdËr
+(
+HWND
+ 
+hwnd
+, 
+UINT
+ cÚ¡ 
+mes§ge
+,
+
+52 
+WPARAM
+ cÚ¡ 
+w·¿m
+,
+
+53 
+LPARAM
+ cÚ¡ 
+Í¬am
+è
+nÛxû±
+ {
+
+55 ià(
+æu‰”_cÚŒŞËr_
+) {
+
+56 
+¡d
+::
+İtiÚ®
+<
+LRESULT
+> 
+»suÉ
+ =
+
+57 
+æu‰”_cÚŒŞËr_
+->
+	`HªdËTİLev–WšdowProc
+(
+hwnd
+, 
+mes§ge
+, 
+w·¿m
+,
+
+58 
+Í¬am
+);
+
+59 ià(
+»suÉ
+) {
+
+60  *
+»suÉ
+;
+
+64 
+mes§ge
+) {
+
+65 
+WM_FONTCHANGE
+:
+
+66 
+æu‰”_cÚŒŞËr_
+->
+	`’gše
+()->
+	`R–ßdSy¡emFÚts
+();
+
+70  
+Wš32Wšdow
+::
+	`Mes§geHªdËr
+(
+hwnd
+, 
+mes§ge
+, 
+w·¿m
+, 
+Í¬am
+);
+
+71 
+	}
+}
+
+	@windows/runner/flutter_window.h
+
+1 #iâdeà
+RUNNER_FLUTTER_WINDOW_H_
+
+
+2 
+	#RUNNER_FLUTTER_WINDOW_H_
+
+
+	)
+
+4 
+	~<æu‰”/d¬t_´ojeù.h
+>
+
+5 
+	~<æu‰”/æu‰”_v›w_cÚŒŞËr.h
+>
+
+7 
+	~<memÜy
+>
+
+9 
+	~"wš32_wšdow.h
+"
+
+12 şas 
+	cFlu‰”Wšdow
+ : 
+public
+ 
+Wš32Wšdow
+ {
+
+13 
+public
+:
+
+15 
+ex¶ic™
+ 
+Flu‰”Wšdow
+(cÚ¡ 
+æu‰”
+::
+D¬tProjeù
+& 
+´ojeù
+);
+
+16 
+	mvœtu®
+ ~
+Flu‰”Wšdow
+();
+
+18 
+	m´Ùeùed
+:
+
+20 
+boŞ
+ 
+	$OnC»©e
+(è
+ov”ride
+;
+
+21 
+	$OnDe¡roy
+(è
+ov”ride
+;
+
+22 
+LRESULT
+ 
+	$Mes§geHªdËr
+(
+HWND
+ 
+wšdow
+, 
+UINT
+ cÚ¡ 
+mes§ge
+, 
+WPARAM
+ cÚ¡ 
+w·¿m
+,
+
+23 
+LPARAM
+ cÚ¡ 
+Í¬am
+è
+nÛxû±
+ 
+ov”ride
+;
+
+25 
+´iv©e
+:
+
+27 
+æu‰”
+::
+D¬tProjeù
+ 
+´ojeù_
+;
+
+30 
+¡d
+::
+unique_±r
+<
+æu‰”
+::
+Flu‰”V›wCÚŒŞËr
+> 
+æu‰”_cÚŒŞËr_
+;
+
+	@windows/runner/main.cpp
+
+1 
+	~<æu‰”/d¬t_´ojeù.h
+>
+
+2 
+	~<æu‰”/æu‰”_v›w_cÚŒŞËr.h
+>
+
+3 
+	~<wšdows.h
+>
+
+5 
+	~"æu‰”_wšdow.h
+"
+
+6 
+	~"uts.h
+"
+
+8 
+APIENTRY
+ 
+	$wWšMaš
+(
+_In_
+ 
+HINSTANCE
+ 
+š¡ªû
+, 
+_In_İt_
+ HINSTANCE 
+´ev
+,
+
+9 
+_In_
+ 
+wch¬_t
+ *
+commªd_lše
+, _In_ 
+show_commªd
+) {
+
+12 ià(!::
+	`A‰achCÚsŞe
+(
+ATTACH_PARENT_PROCESS
+è&& ::
+	`IsDebugg”P»£Á
+()) {
+
+13 
+	`C»©eAndA‰achCÚsŞe
+();
+
+18 ::
+	`CoIn™ŸlizeEx
+(
+nuÎ±r
+, 
+COINIT_APARTMENTTHREADED
+);
+
+20 
+æu‰”
+::
+D¬tProjeù
+ 
+	`´ojeù
+(
+L
+"data");
+
+22 
+¡d
+::
+veùÜ
+<¡d::
+¡ršg
+> 
+commªd_lše_¬gum’ts
+ =
+
+23 
+	`G‘CommªdLšeArgum’ts
+();
+
+25 
+´ojeù
+.
+	`£t_d¬t_’Œypošt_¬gum’ts
+(
+¡d
+::
+	`move
+(
+commªd_lše_¬gum’ts
+));
+
+27 
+Flu‰”Wšdow
+ 
+	`wšdow
+(
+´ojeù
+);
+
+28 
+Wš32Wšdow
+::
+Pošt
+ 
+	`Üigš
+(10, 10);
+
+29 
+Wš32Wšdow
+::
+Size
+ 
+	`size
+(1280, 720);
+
+30 ià(!
+wšdow
+.
+	`C»©e
+(
+L
+"mı_»£¬ch_web", 
+Üigš
+, 
+size
+)) {
+
+31  
+EXIT_FAILURE
+;
+
+33 
+wšdow
+.
+	`S‘Qu™OnClo£
+(
+Œue
+);
+
+35 ::
+MSG
+ 
+msg
+;
+
+36 ::
+	`G‘Mes§ge
+(&
+msg
+, 
+nuÎ±r
+, 0, 0)) {
+
+37 ::
+	`T¿n¦©eMes§ge
+(&
+msg
+);
+
+38 ::
+	`Di¥©chMes§ge
+(&
+msg
+);
+
+41 ::
+	`CoUnš™Ÿlize
+();
+
+42  
+EXIT_SUCCESS
+;
+
+43 
+	}
+}
+
+	@windows/runner/resource.h
+
+5 
+	#IDI_APP_ICON
+ 101
+
+	)
+
+9 #ifdeà
+APSTUDIO_INVOKED
+
+
+10 #iâdeà
+APSTUDIO_READONLY_SYMBOLS
+
+
+11 
+	#_APS_NEXT_RESOURCE_VALUE
+ 102
+
+	)
+
+12 
+	#_APS_NEXT_COMMAND_VALUE
+ 40001
+
+	)
+
+13 
+	#_APS_NEXT_CONTROL_VALUE
+ 1001
+
+	)
+
+14 
+	#_APS_NEXT_SYMED_VALUE
+ 101
+
+	)
+
+	@windows/runner/utils.cpp
+
+1 
+	~"uts.h
+"
+
+3 
+	~<æu‰”_wšdows.h
+>
+
+4 
+	~<io.h
+>
+
+5 
+	~<¡dio.h
+>
+
+6 
+	~<wšdows.h
+>
+
+8 
+	~<io¡»am
+>
+
+10 
+	$C»©eAndA‰achCÚsŞe
+() {
+
+11 ià(::
+	`AÎocCÚsŞe
+()) {
+
+12 
+FILE
+ *
+unu£d
+;
+
+13 ià(
+	`äeİ’_s
+(&
+unu£d
+, "CONOUT$", "w", 
+¡dout
+)) {
+
+14 
+	`_dup2
+(
+	`_f’o
+(
+¡dout
+), 1);
+
+16 ià(
+	`äeİ’_s
+(&
+unu£d
+, "CONOUT$", "w", 
+¡d”r
+)) {
+
+17 
+	`_dup2
+(
+	`_f’o
+(
+¡dout
+), 2);
+
+19 
+¡d
+::
+ios
+::
+	`sync_w™h_¡dio
+();
+
+20 
+	`Flu‰”DesktİResyncOuutSŒ—ms
+();
+
+22 
+	}
+}
+
+24 
+	g¡d
+::
+veùÜ
+<
+¡d
+::
+¡ršg
+> 
+	$G‘CommªdLšeArgum’ts
+() {
+
+26 
+¬gc
+;
+
+27 
+wch¬_t
+** 
+¬gv
+ = ::
+	`CommªdLšeToArgvW
+(::
+	`G‘CommªdLšeW
+(), &
+¬gc
+);
+
+28 ià(
+¬gv
+ =ğ
+nuÎ±r
+) {
+
+29  
+¡d
+::
+veùÜ
+<¡d::
+¡ršg
+>();
+
+32 
+¡d
+::
+veùÜ
+<¡d::
+¡ršg
+> 
+commªd_lše_¬gum’ts
+;
+
+35 
+i
+ = 1; i < 
+¬gc
+; i++) {
+
+36 
+commªd_lše_¬gum’ts
+.
+	`push_back
+(
+	`Utf8FromUtf16
+(
+¬gv
+[
+i
+]));
+
+39 ::
+	`LoÿlF»e
+(
+¬gv
+);
+
+41  
+commªd_lše_¬gum’ts
+;
+
+42 
+	}
+}
+
+44 
+	g¡d
+::
+¡ršg
+ 
+	$Utf8FromUtf16
+(cÚ¡ 
+wch¬_t
+* 
+utf16_¡ršg
+) {
+
+45 ià(
+utf16_¡ršg
+ =ğ
+nuÎ±r
+) {
+
+46  
+¡d
+::
+	`¡ršg
+();
+
+48 
+rg‘_Ëngth
+ = ::
+	`WideCh¬ToMuÉiBy‹
+(
+
+49 
+CP_UTF8
+, 
+WC_ERR_INVALID_CHARS
+, 
+utf16_¡ršg
+,
+
+50 -1, 
+nuÎ±r
+, 0,‚ullptr,‚ullptr)
+
+52 
+šput_Ëngth
+ = ()
+	`wc¦’
+(
+utf16_¡ršg
+);
+
+53 
+¡d
+::
+¡ršg
+ 
+utf8_¡ršg
+;
+
+54 ià(
+rg‘_Ëngth
+ =ğ0 ||¬g‘_Ëngth > 
+utf8_¡ršg
+.
+	`max_size
+()) {
+
+55  
+utf8_¡ršg
+;
+
+57 
+utf8_¡ršg
+.
+	`»size
+(
+rg‘_Ëngth
+);
+
+58 
+cÚv”‹d_Ëngth
+ = ::
+	`WideCh¬ToMuÉiBy‹
+(
+
+59 
+CP_UTF8
+, 
+WC_ERR_INVALID_CHARS
+, 
+utf16_¡ršg
+,
+
+60 
+šput_Ëngth
+, 
+utf8_¡ršg
+.
+	`d©a
+(), 
+rg‘_Ëngth
+, 
+nuÎ±r
+,‚ullptr);
+
+61 ià(
+cÚv”‹d_Ëngth
+ == 0) {
+
+62  
+¡d
+::
+	`¡ršg
+();
+
+64  
+utf8_¡ršg
+;
+
+65 
+	}
+}
+
+	@windows/runner/utils.h
+
+1 #iâdeà
+RUNNER_UTILS_H_
+
+
+2 
+	#RUNNER_UTILS_H_
+
+
+	)
+
+4 
+	~<¡ršg
+>
+
+5 
+	~<veùÜ
+>
+
+9 
+C»©eAndA‰achCÚsŞe
+();
+
+13 
+	g¡d
+::
+¡ršg
+ 
+Utf8FromUtf16
+(cÚ¡ 
+wch¬_t
+* 
+utf16_¡ršg
+);
+
+17 
+	g¡d
+::
+veùÜ
+<
+¡d
+::
+¡ršg
+> 
+G‘CommªdLšeArgum’ts
+();
+
+	@windows/runner/win32_window.cpp
+
+1 
+	~"wš32_wšdow.h
+"
+
+3 
+	~<dwm­i.h
+>
+
+4 
+	~<æu‰”_wšdows.h
+>
+
+6 
+	~"»sourû.h
+"
+
+8 
+	gÇme¥aû
+ {
+
+15 #iâdeà
+DWMWA_USE_IMMERSIVE_DARK_MODE
+
+
+16 
+	#DWMWA_USE_IMMERSIVE_DARK_MODE
+ 20
+
+	)
+
+19 
+cÚ¡ex´
+ cÚ¡ 
+wch¬_t
+ 
+	gkWšdowCÏssName
+[] = 
+L
+"FLUTTER_RUNNER_WIN32_WINDOW";
+
+25 
+cÚ¡ex´
+ cÚ¡ 
+wch¬_t
+ 
+	gkG‘P»ã¼edBrighŠessRegKey
+[] =
+
+26 
+L
+"Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize";
+
+27 
+cÚ¡ex´
+ cÚ¡ 
+wch¬_t
+ 
+	gkG‘P»ã¼edBrighŠessRegV®ue
+[] = 
+L
+"AppsUseLightTheme";
+
+30 
+	gg_aùive_wšdow_couÁ
+ = 0;
+
+32 
+usšg
+ 
+	gEÇbËNÚCl›ÁDpiSÿlšg
+ = 
+BOOL
+ 
+__¡dÿÎ
+(
+HWND
+ 
+hwnd
+);
+
+36 
+SÿË
+(
+sourû
+, 
+sÿË_çùÜ
+) {
+
+37  
+	g¡©ic_ÿ¡
+<>(
+sourû
+ * 
+	gsÿË_çùÜ
+);
+
+42 
+EÇbËFuÎDpiSuµÜtIfAvaabË
+(
+HWND
+ 
+hwnd
+) {
+
+43 
+HMODULE
+ 
+	gu£r32_moduË
+ = 
+LßdLib¿ryA
+("User32.dll");
+
+44 ià(!
+	gu£r32_moduË
+) {
+
+47 autØ
+	g’abË_nÚ_ş›Á_dpi_sÿlšg
+ =
+
+48 
+»š‹½»t_ÿ¡
+<
+EÇbËNÚCl›ÁDpiSÿlšg
+*>(
+
+49 
+G‘ProcAdd»ss
+(
+u£r32_moduË
+, "EnableNonClientDpiScaling"));
+
+50 ià(
+	g’abË_nÚ_ş›Á_dpi_sÿlšg
+ !ğ
+nuÎ±r
+) {
+
+51 
+’abË_nÚ_ş›Á_dpi_sÿlšg
+(
+hwnd
+);
+
+53 
+F»eLib¿ry
+(
+u£r32_moduË
+);
+
+59 şas 
+	cWšdowCÏssRegi¡¿r
+ {
+
+60 
+	mpublic
+:
+
+61 ~
+WšdowCÏssRegi¡¿r
+() = ;
+
+64 
+WšdowCÏssRegi¡¿r
+* 
+	$G‘In¡ªû
+() {
+
+65 ià(!
+š¡ªû_
+) {
+
+66 
+š¡ªû_
+ = 
+Ãw
+ 
+	`WšdowCÏssRegi¡¿r
+();
+
+68  
+š¡ªû_
+;
+
+73 cÚ¡ 
+wch¬_t
+* 
+	`G‘WšdowCÏss
+();
+
+77 
+	`UÄegi¡”WšdowCÏss
+();
+
+79 
+´iv©e
+:
+
+80 
+	`WšdowCÏssRegi¡¿r
+() = ;
+
+82 
+WšdowCÏssRegi¡¿r
+* 
+š¡ªû_
+;
+
+84 
+boŞ
+ 
+şass_»gi¡”ed_
+ = 
+çl£
+;
+
+85 
+	}
+};
+
+87 
+WšdowCÏssRegi¡¿r
+* 
+	gWšdowCÏssRegi¡¿r
+::
+š¡ªû_
+ = 
+nuÎ±r
+;
+
+89 cÚ¡ 
+wch¬_t
+* 
+	gWšdowCÏssRegi¡¿r
+::
+	$G‘WšdowCÏss
+() {
+
+90 ià(!
+şass_»gi¡”ed_
+) {
+
+91 
+WNDCLASS
+ 
+wšdow_şass
+{};
+
+92 
+wšdow_şass
+.
+hCursÜ
+ = 
+	`LßdCursÜ
+(
+nuÎ±r
+, 
+IDC_ARROW
+);
+
+93 
+wšdow_şass
+.
+ÍszCÏssName
+ = 
+kWšdowCÏssName
+;
+
+94 
+wšdow_şass
+.
+¡yË
+ = 
+CS_HREDRAW
+ | 
+CS_VREDRAW
+;
+
+95 
+wšdow_şass
+.
+cbClsExŒa
+ = 0;
+
+96 
+wšdow_şass
+.
+cbWndExŒa
+ = 0;
+
+97 
+wšdow_şass
+.
+hIn¡ªû
+ = 
+	`G‘ModuËHªdË
+(
+nuÎ±r
+);
+
+98 
+wšdow_şass
+.
+hIcÚ
+ =
+
+99 
+	`LßdIcÚ
+(
+wšdow_şass
+.
+hIn¡ªû
+, 
+	`MAKEINTRESOURCE
+(
+IDI_APP_ICON
+));
+
+100 
+wšdow_şass
+.
+hbrBackground
+ = 0;
+
+101 
+wšdow_şass
+.
+ÍszM’uName
+ = 
+nuÎ±r
+;
+
+102 
+wšdow_şass
+.
+ÍâWndProc
+ = 
+Wš32Wšdow
+::
+WndProc
+;
+
+103 
+	`Regi¡”CÏss
+(&
+wšdow_şass
+);
+
+104 
+şass_»gi¡”ed_
+ = 
+Œue
+;
+
+106  
+kWšdowCÏssName
+;
+
+107 
+	}
+}
+
+109 
+	gWšdowCÏssRegi¡¿r
+::
+	$UÄegi¡”WšdowCÏss
+() {
+
+110 
+	`UÄegi¡”CÏss
+(
+kWšdowCÏssName
+, 
+nuÎ±r
+);
+
+111 
+şass_»gi¡”ed_
+ = 
+çl£
+;
+
+112 
+	}
+}
+
+114 
+	gWš32Wšdow
+::
+	$Wš32Wšdow
+() {
+
+115 ++
+g_aùive_wšdow_couÁ
+;
+
+116 
+	}
+}
+
+118 
+	gWš32Wšdow
+::~
+	$Wš32Wšdow
+() {
+
+119 --
+g_aùive_wšdow_couÁ
+;
+
+120 
+	`De¡roy
+();
+
+121 
+	}
+}
+
+123 
+boŞ
+ 
+	gWš32Wšdow
+::
+	$C»©e
+(cÚ¡ 
+¡d
+::
+w¡ršg
+& 
+t™Ë
+,
+
+124 cÚ¡ 
+Pošt
+& 
+Üigš
+,
+
+125 cÚ¡ 
+Size
+& 
+size
+) {
+
+126 
+	`De¡roy
+();
+
+128 cÚ¡ 
+wch¬_t
+* 
+wšdow_şass
+ =
+
+129 
+WšdowCÏssRegi¡¿r
+::
+	`G‘In¡ªû
+()->
+	`G‘WšdowCÏss
+();
+
+131 cÚ¡ 
+POINT
+ 
+rg‘_pošt
+ = {
+¡©ic_ÿ¡
+<
+LONG
+>(
+Üigš
+.
+x
+),
+
+132 
+¡©ic_ÿ¡
+<
+LONG
+>(
+Üigš
+.
+y
+)};
+
+133 
+HMONITOR
+ 
+mÚ™Ü
+ = 
+	`MÚ™ÜFromPošt
+(
+rg‘_pošt
+, 
+MONITOR_DEFAULTTONEAREST
+);
+
+134 
+UINT
+ 
+dpi
+ = 
+	`Flu‰”DesktİG‘DpiFÜMÚ™Ü
+(
+mÚ™Ü
+);
+
+135 
+sÿË_çùÜ
+ = 
+dpi
+ / 96.0;
+
+137 
+HWND
+ 
+wšdow
+ = 
+	`C»©eWšdow
+(
+
+138 
+wšdow_şass
+, 
+t™Ë
+.
+	`c_¡r
+(), 
+WS_OVERLAPPEDWINDOW
+,
+
+139 
+	`SÿË
+(
+Üigš
+.
+x
+, 
+sÿË_çùÜ
+), SÿË(Üigš.
+y
+, scale_factor),
+
+140 
+	`SÿË
+(
+size
+.
+width
+, 
+sÿË_çùÜ
+), SÿË(size.
+height
+, scale_factor),
+
+141 
+nuÎ±r
+,‚uÎ±r, 
+	`G‘ModuËHªdË
+ÒuÎ±r), 
+this
+);
+
+143 ià(!
+wšdow
+) {
+
+144  
+çl£
+;
+
+147 
+	`Upd©eTheme
+(
+wšdow
+);
+
+149  
+	`OnC»©e
+();
+
+150 
+	}
+}
+
+152 
+boŞ
+ 
+	gWš32Wšdow
+::
+	$Show
+() {
+
+153  
+	`ShowWšdow
+(
+wšdow_hªdË_
+, 
+SW_SHOWNORMAL
+);
+
+154 
+	}
+}
+
+157 
+LRESULT
+ 
+CALLBACK
+ 
+	gWš32Wšdow
+::
+	$WndProc
+(
+HWND
+ cÚ¡ 
+wšdow
+,
+
+158 
+UINT
+ cÚ¡ 
+mes§ge
+,
+
+159 
+WPARAM
+ cÚ¡ 
+w·¿m
+,
+
+160 
+LPARAM
+ cÚ¡ 
+Í¬am
+è
+nÛxû±
+ {
+
+161 ià(
+mes§ge
+ =ğ
+WM_NCCREATE
+) {
+
+162 autØ
+wšdow_¡ruù
+ = 
+»š‹½»t_ÿ¡
+<
+CREATESTRUCT
+*>(
+Í¬am
+);
+
+163 
+	`S‘WšdowLÚgPŒ
+(
+wšdow
+, 
+GWLP_USERDATA
+,
+
+164 
+»š‹½»t_ÿ¡
+<
+LONG_PTR
+>(
+wšdow_¡ruù
+->
+ÍC»©eP¬ams
+));
+
+166 autØ
+th©
+ = 
+¡©ic_ÿ¡
+<
+Wš32Wšdow
+*>(
+wšdow_¡ruù
+->
+ÍC»©eP¬ams
+);
+
+167 
+	`EÇbËFuÎDpiSuµÜtIfAvaabË
+(
+wšdow
+);
+
+168 
+th©
+->
+wšdow_hªdË_
+ = 
+wšdow
+;
+
+169 } ià(
+Wš32Wšdow
+* 
+th©
+ = 
+	`G‘ThisFromHªdË
+(
+wšdow
+)) {
+
+170  
+th©
+->
+	`Mes§geHªdËr
+(
+wšdow
+, 
+mes§ge
+, 
+w·¿m
+, 
+Í¬am
+);
+
+173  
+	`DefWšdowProc
+(
+wšdow
+, 
+mes§ge
+, 
+w·¿m
+, 
+Í¬am
+);
+
+174 
+	}
+}
+
+176 
+LRESULT
+
+
+177 
+	gWš32Wšdow
+::
+	$Mes§geHªdËr
+(
+HWND
+ 
+hwnd
+,
+
+178 
+UINT
+ cÚ¡ 
+mes§ge
+,
+
+179 
+WPARAM
+ cÚ¡ 
+w·¿m
+,
+
+180 
+LPARAM
+ cÚ¡ 
+Í¬am
+è
+nÛxû±
+ {
+
+181 
+mes§ge
+) {
+
+182 
+WM_DESTROY
+:
+
+183 
+wšdow_hªdË_
+ = 
+nuÎ±r
+;
+
+184 
+	`De¡roy
+();
+
+185 ià(
+qu™_Ú_şo£_
+) {
+
+186 
+	`Po¡Qu™Mes§ge
+(0);
+
+190 
+WM_DPICHANGED
+: {
+
+191 autØ
+ÃwReùSize
+ = 
+»š‹½»t_ÿ¡
+<
+RECT
+*>(
+Í¬am
+);
+
+192 
+LONG
+ 
+ÃwWidth
+ = 
+ÃwReùSize
+->
+right
+ -‚ewReùSize->
+Ëá
+;
+
+193 
+LONG
+ 
+ÃwHeight
+ = 
+ÃwReùSize
+->
+bÙtom
+ -‚ewReùSize->
+tİ
+;
+
+195 
+	`S‘WšdowPos
+(
+hwnd
+, 
+nuÎ±r
+, 
+ÃwReùSize
+->
+Ëá
+,‚ewReùSize->
+tİ
+, 
+ÃwWidth
+,
+
+196 
+ÃwHeight
+, 
+SWP_NOZORDER
+ | 
+SWP_NOACTIVATE
+);
+
+200 
+WM_SIZE
+: {
+
+201 
+RECT
+ 
+»ù
+ = 
+	`G‘Cl›ÁA»a
+();
+
+202 ià(
+chd_cÚ‹Á_
+ !ğ
+nuÎ±r
+) {
+
+204 
+	`MoveWšdow
+(
+chd_cÚ‹Á_
+, 
+»ù
+.
+Ëá
+,„eù.
+tİ
+,„eù.
+right
+ -„ect.left,
+
+205 
+»ù
+.
+bÙtom
+ -„eù.
+tİ
+, 
+TRUE
+);
+
+210 
+WM_ACTIVATE
+:
+
+211 ià(
+chd_cÚ‹Á_
+ !ğ
+nuÎ±r
+) {
+
+212 
+	`S‘Focus
+(
+chd_cÚ‹Á_
+);
+
+216 
+WM_DWMCOLORIZATIONCOLORCHANGED
+:
+
+217 
+	`Upd©eTheme
+(
+hwnd
+);
+
+221  
+	`DefWšdowProc
+(
+wšdow_hªdË_
+, 
+mes§ge
+, 
+w·¿m
+, 
+Í¬am
+);
+
+222 
+	}
+}
+
+224 
+	gWš32Wšdow
+::
+	$De¡roy
+() {
+
+225 
+	`OnDe¡roy
+();
+
+227 ià(
+wšdow_hªdË_
+) {
+
+228 
+	`De¡royWšdow
+(
+wšdow_hªdË_
+);
+
+229 
+wšdow_hªdË_
+ = 
+nuÎ±r
+;
+
+231 ià(
+g_aùive_wšdow_couÁ
+ == 0) {
+
+232 
+WšdowCÏssRegi¡¿r
+::
+	`G‘In¡ªû
+()->
+	`UÄegi¡”WšdowCÏss
+();
+
+234 
+	}
+}
+
+236 
+Wš32Wšdow
+* 
+	gWš32Wšdow
+::
+	$G‘ThisFromHªdË
+(
+HWND
+ cÚ¡ 
+wšdow
+è
+nÛxû±
+ {
+
+237  
+»š‹½»t_ÿ¡
+<
+Wš32Wšdow
+*>(
+
+238 
+	`G‘WšdowLÚgPŒ
+(
+wšdow
+, 
+GWLP_USERDATA
+));
+
+239 
+	}
+}
+
+241 
+	gWš32Wšdow
+::
+	$S‘ChdCÚ‹Á
+(
+HWND
+ 
+cÚ‹Á
+) {
+
+242 
+chd_cÚ‹Á_
+ = 
+cÚ‹Á
+;
+
+243 
+	`S‘P¬’t
+(
+cÚ‹Á
+, 
+wšdow_hªdË_
+);
+
+244 
+RECT
+ 
+äame
+ = 
+	`G‘Cl›ÁA»a
+();
+
+246 
+	`MoveWšdow
+(
+cÚ‹Á
+, 
+äame
+.
+Ëá
+, f¿me.
+tİ
+, f¿me.
+right
+ - frame.left,
+
+247 
+äame
+.
+bÙtom
+ - f¿me.
+tİ
+, 
+Œue
+);
+
+249 
+	`S‘Focus
+(
+chd_cÚ‹Á_
+);
+
+250 
+	}
+}
+
+252 
+RECT
+ 
+	gWš32Wšdow
+::
+	$G‘Cl›ÁA»a
+() {
+
+253 
+RECT
+ 
+äame
+;
+
+254 
+	`G‘Cl›ÁReù
+(
+wšdow_hªdË_
+, &
+äame
+);
+
+255  
+äame
+;
+
+256 
+	}
+}
+
+258 
+HWND
+ 
+	gWš32Wšdow
+::
+	$G‘HªdË
+() {
+
+259  
+wšdow_hªdË_
+;
+
+260 
+	}
+}
+
+262 
+	gWš32Wšdow
+::
+	$S‘Qu™OnClo£
+(
+boŞ
+ 
+qu™_Ú_şo£
+) {
+
+263 
+qu™_Ú_şo£_
+ = 
+qu™_Ú_şo£
+;
+
+264 
+	}
+}
+
+266 
+boŞ
+ 
+	gWš32Wšdow
+::
+	$OnC»©e
+() {
+
+268  
+Œue
+;
+
+269 
+	}
+}
+
+271 
+	gWš32Wšdow
+::
+	$OnDe¡roy
+() {
+
+273 
+	}
+}
+
+275 
+Wš32Wšdow
+::
+	$Upd©eTheme
+(
+HWND
+ cÚ¡ 
+wšdow
+) {
+
+276 
+DWORD
+ 
+light_mode
+;
+
+277 
+DWORD
+ 
+light_mode_size
+ = (
+light_mode
+);
+
+278 
+LSTATUS
+ 
+»suÉ
+ = 
+	`RegG‘V®ue
+(
+HKEY_CURRENT_USER
+, 
+kG‘P»ã¼edBrighŠessRegKey
+,
+
+279 
+kG‘P»ã¼edBrighŠessRegV®ue
+,
+
+280 
+RRF_RT_REG_DWORD
+, 
+nuÎ±r
+, &
+light_mode
+,
+
+281 &
+light_mode_size
+);
+
+283 ià(
+»suÉ
+ =ğ
+ERROR_SUCCESS
+) {
+
+284 
+BOOL
+ 
+’abË_d¬k_mode
+ = 
+light_mode
+ == 0;
+
+285 
+	`DwmS‘WšdowA‰ribu‹
+(
+wšdow
+, 
+DWMWA_USE_IMMERSIVE_DARK_MODE
+,
+
+286 &
+’abË_d¬k_mode
+, (enable_dark_mode));
+
+288 
+	}
+}
+
+	@windows/runner/win32_window.h
+
+1 #iâdeà
+RUNNER_WIN32_WINDOW_H_
+
+
+2 
+	#RUNNER_WIN32_WINDOW_H_
+
+
+	)
+
+4 
+	~<wšdows.h
+>
+
+6 
+	~<funùiÚ®
+>
+
+7 
+	~<memÜy
+>
+
+8 
+	~<¡ršg
+>
+
+13 şas 
+	cWš32Wšdow
+ {
+
+14 
+	mpublic
+:
+
+15 
+	sPošt
+ {
+
+16 
+x
+;
+
+17 
+	my
+;
+
+18 
+Pošt
+(
+x
+, 
+y
+) : x(x), y(y) {}
+
+21 
+	sSize
+ {
+
+22 
+	gwidth
+;
+
+23 
+	gheight
+;
+
+24 
+Size
+(
+width
+, 
+height
+)
+
+25 : 
+width
+(width), 
+height
+(height) {}
+
+28 
+Wš32Wšdow
+();
+
+29 
+	gvœtu®
+ ~
+Wš32Wšdow
+();
+
+37 
+boŞ
+ 
+C»©e
+(cÚ¡ 
+¡d
+::
+w¡ršg
+& 
+t™Ë
+, cÚ¡ 
+Pošt
+& 
+Üigš
+, cÚ¡ 
+Size
+& 
+size
+);
+
+40 
+boŞ
+ 
+Show
+();
+
+43 
+De¡roy
+();
+
+46 
+S‘ChdCÚ‹Á
+(
+HWND
+ 
+cÚ‹Á
+);
+
+50 
+HWND
+ 
+G‘HªdË
+();
+
+53 
+S‘Qu™OnClo£
+(
+boŞ
+ 
+qu™_Ú_şo£
+);
+
+56 
+RECT
+ 
+G‘Cl›ÁA»a
+();
+
+58 
+	g´Ùeùed
+:
+
+62 
+vœtu®
+ 
+LRESULT
+ 
+	$Mes§geHªdËr
+(
+HWND
+ 
+wšdow
+,
+
+63 
+UINT
+ cÚ¡ 
+mes§ge
+,
+
+64 
+WPARAM
+ cÚ¡ 
+w·¿m
+,
+
+65 
+LPARAM
+ cÚ¡ 
+Í¬am
+è
+nÛxû±
+;
+
+69 
+vœtu®
+ 
+boŞ
+ 
+	`OnC»©e
+();
+
+72 
+vœtu®
+ 
+	`OnDe¡roy
+();
+
+74 
+´iv©e
+:
+
+75 
+ä›nd
+ 
+şass
+ 
+WšdowCÏssRegi¡¿r
+;
+
+82 
+LRESULT
+ 
+CALLBACK
+ 
+	$WndProc
+(
+HWND
+ cÚ¡ 
+wšdow
+,
+
+83 
+UINT
+ cÚ¡ 
+mes§ge
+,
+
+84 
+WPARAM
+ cÚ¡ 
+w·¿m
+,
+
+85 
+LPARAM
+ cÚ¡ 
+Í¬am
+è
+nÛxû±
+;
+
+88 
+Wš32Wšdow
+* 
+	$G‘ThisFromHªdË
+(
+HWND
+ cÚ¡ 
+wšdow
+è
+nÛxû±
+;
+
+91 
+	`Upd©eTheme
+(
+HWND
+ cÚ¡ 
+wšdow
+);
+
+93 
+boŞ
+ 
+qu™_Ú_şo£_
+ = 
+çl£
+;
+
+96 
+HWND
+ 
+wšdow_hªdË_
+ = 
+nuÎ±r
+;
+
+99 
+HWND
+ 
+chd_cÚ‹Á_
+ = 
+nuÎ±r
+;
+
+100 
+	}
+};
+
+	@
+1
+.
+0
+36
+2415
+.dart_tool/flutter_build/1282c6623e7d7870e143bf69583ae230/debug_app.cc
+build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/DerivedSources/GeneratedAssetSymbols.h
+build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/DerivedSources/mcp_research_web-Swift.h
+build/macos/Build/Intermediates.noindex/Runner.build/Debug/Runner.build/Objects-normal/arm64/mcp_research_web-Swift.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterAppDelegate.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterAppLifecycleDelegate.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterBinaryMessenger.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterChannels.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterCodecs.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterDartProject.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterEngine.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterHourFormat.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterMacOS.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterMacros.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterPlatformViews.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterPluginMacOS.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterPluginRegistrarMacOS.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterTexture.h
+build/macos/Build/Products/Debug/FlutterMacOS.framework/Versions/A/Headers/FlutterViewController.h
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/Runner-Bridging-Header.h
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+linux/runner/main.cc
+linux/runner/my_application.cc
+linux/runner/my_application.h
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/runner/flutter_window.cpp
+windows/runner/flutter_window.h
+windows/runner/main.cpp
+windows/runner/resource.h
+windows/runner/utils.cpp
+windows/runner/utils.h
+windows/runner/win32_window.cpp
+windows/runner/win32_window.h

@@ -1,73 +1,64 @@
 import 'package:flutter/material.dart';
-import 'package:mcp_research_web/constants/app_constants.dart';
+import '../constants/app_constants.dart';
+import '../constants/app_styles.dart';
+import '../models/research_state.dart';
 
 class StageControls extends StatelessWidget {
-  final String currentStage;
-  final bool isLoading;
-  final Function(String) onStageSelected;
-  final Function() onProceedToNextStage;
+  final ResearchState state;
+  final VoidCallback onNextStage;
+  final VoidCallback onPreviousStage;
+  final VoidCallback onReset;
 
   const StageControls({
     super.key,
-    required this.currentStage,
-    required this.isLoading,
-    required this.onStageSelected,
-    required this.onProceedToNextStage,
+    required this.state,
+    required this.onNextStage,
+    required this.onPreviousStage,
+    required this.onReset,
   });
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      margin: const EdgeInsets.all(8),
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+    final currentIndex = AppConstants.stageProgression.indexOf(state.currentStage);
+    final isFirstStage = currentIndex == 0;
+    final isLastStage = currentIndex == AppConstants.stageProgression.length - 1;
+
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        Row(
           children: [
-            const Text(
-              '단계 제어',
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
+            if (!isFirstStage)
+              ElevatedButton.icon(
+                onPressed: onPreviousStage,
+                icon: const Icon(Icons.arrow_back),
+                label: const Text('이전 단계'),
+                style: AppStyles.getButtonStyle(
+                  context: context,
+                  isPrimary: false,
+                ),
               ),
-            ),
-            const SizedBox(height: 16),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Expanded(
-                  child: DropdownButtonFormField<String>(
-                    value: currentStage,
-                    decoration: const InputDecoration(
-                      labelText: '현재 단계',
-                      border: OutlineInputBorder(),
-                    ),
-                    items: AppConstants.stageNames.entries.map((entry) {
-                      return DropdownMenuItem(
-                        value: entry.key,
-                        child: Text(entry.value),
-                      );
-                    }).toList(),
-                    onChanged: isLoading ? null : (value) {
-                      if (value != null) {
-                        onStageSelected(value);
-                      }
-                    },
-                  ),
-                ),
-                const SizedBox(width: 16),
-                Flexible(
-                  child: ElevatedButton.icon(
-                    icon: const Icon(Icons.arrow_forward),
-                    label: const Text('다음 단계로'),
-                    onPressed: isLoading ? null : onProceedToNextStage,
-                  ),
-                ),
-              ],
+            if (!isFirstStage) SizedBox(width: AppStyles.spacingMedium),
+            ElevatedButton.icon(
+              onPressed: onReset,
+              icon: const Icon(Icons.refresh),
+              label: const Text('초기화'),
+              style: AppStyles.getButtonStyle(
+                context: context,
+                isPrimary: false,
+                isOutlined: true,
+              ),
             ),
           ],
         ),
-      ),
+        if (!isLastStage)
+          ElevatedButton.icon(
+            onPressed: onNextStage,
+            icon: const Icon(Icons.arrow_forward),
+            label: const Text('다음 단계'),
+            style: AppStyles.getButtonStyle(context: context),
+          ),
+      ],
     );
   }
 } 

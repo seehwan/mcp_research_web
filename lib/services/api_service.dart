@@ -1,34 +1,85 @@
-import 'dart:convert';
-import 'package:http/http.dart' as http;
 import '../models/conversation.dart';
 import 'package:flutter/foundation.dart';
+import '../constants/app_constants.dart';
+import 'http_client.dart';
+import 'base_service.dart';
 
-class ApiService {
-  final String baseUrl;
-  ApiService({String? baseUrl}) : baseUrl = baseUrl ?? 'http://127.0.0.1:8000';
+class ApiService extends BaseService {
+  ApiService() : super(
+    client: HttpClient(
+      baseUrl: AppConstants.apiBaseUrl,
+      maxRetries: 3,
+      retryDelay: const Duration(seconds: 1),
+    ),
+  );
+
+  Future<Map<String, dynamic>> generateQuestions({
+    required String topic,
+    required String stage,
+    required List<Map<String, dynamic>> conversationHistory,
+  }) async {
+    return handleApiCall(
+      apiCall: () => post(
+        endpoint: 'generate-questions',
+        body: {
+          'topic': topic,
+          'stage': stage,
+          'conversation_history': conversationHistory,
+        },
+        debug: kDebugMode,
+      ),
+      operationName: 'generate questions',
+      defaultErrorCode: ErrorCode.llmError,
+      defaultErrorMessage: 'Failed to generate questions',
+    );
+  }
+
+  Future<Map<String, dynamic>> generateAnswer({
+    required String question,
+    required String topic,
+    required String stage,
+    required List<Map<String, dynamic>> conversationHistory,
+  }) async {
+    return handleApiCall(
+      apiCall: () => post(
+        endpoint: 'generate-answer',
+        body: {
+          'question': question,
+          'topic': topic,
+          'stage': stage,
+          'conversation_history': conversationHistory,
+        },
+        debug: kDebugMode,
+      ),
+      operationName: 'generate answer',
+      defaultErrorCode: ErrorCode.llmError,
+      defaultErrorMessage: 'Failed to generate answer',
+    );
+  }
 
   Future<List<QuestionResponse>> getStageQuestions({
     required String conversationId,
     required String currentStage,
     required Map<String, dynamic> stageContext,
   }) async {
-    final response = await http.post(
-      Uri.parse('$baseUrl/get_stage_questions'),
-      headers: {'Content-Type': 'application/json'},
-      body: jsonEncode({
-        'conversation_id': conversationId,
-        'current_stage': currentStage,
-        'stage_context': stageContext,
-      }),
+    final data = await handleApiCall(
+      apiCall: () => post(
+        endpoint: 'get_stage_questions',
+        body: {
+          'conversation_id': conversationId,
+          'current_stage': currentStage,
+          'stage_context': stageContext,
+        },
+        debug: kDebugMode,
+      ),
+      operationName: 'get stage questions',
+      defaultErrorCode: ErrorCode.validationError,
+      defaultErrorMessage: 'Failed to get stage questions',
     );
-    final data = jsonDecode(response.body);
-    if (response.statusCode == 200 && data['status'] == 'success') {
-      return (data['data']['questions'] as List)
-          .map((q) => QuestionResponse.fromJson(q))
-          .toList();
-    } else {
-      throw Exception(data['error']?['message'] ?? 'Failed to get questions');
-    }
+
+    return (data['questions'] as List)
+        .map((q) => QuestionResponse.fromJson(q))
+        .toList();
   }
 
   Future<Map<String, dynamic>> proceedToNextStage({
@@ -37,33 +88,36 @@ class ApiService {
     required Map<String, dynamic> stageContext,
     required List<dynamic> stageHistory,
     String? researchTopic,
-    String? keywords,
+    List<String>? keywords,
   }) async {
-    final url = '$baseUrl/proceed_to_next_stage';
-    final body = jsonEncode({
-      'conversation_id': conversationId,
-      'current_stage': currentStage,
-      'stage_context': stageContext,
-      'stage_history': stageHistory,
-      if (researchTopic != null) 'research_topic': researchTopic,
-      if (keywords != null) 'keywords': keywords,
-    });
-    debugPrint('API REQUEST: $url\nBODY: $body');
-    final response = await http.post(
-      Uri.parse(url),
-      headers: {'Content-Type': 'application/json'},
-      body: body,
+    final data = await handleApiCall(
+      apiCall: () => post(
+        endpoint: 'proceed_to_next_stage',
+        body: {
+          'conversation_id': conversationId,
+          'current_stage': currentStage,
+          'stage_context': stageContext,
+          'stage_history': stageHistory,
+          if (researchTopic != null) 'research_topic': researchTopic,
+          if (keywords != null) 'keywords': keywords,
+        },
+        debug: kDebugMode,
+      ),
+      operationName: 'proceed to next stage',
+      defaultErrorCode: ErrorCode.stageTransitionError,
+      defaultErrorMessage: 'Failed to proceed to next stage',
     );
-    debugPrint('API RESPONSE: $url\nSTATUS: \\${response.statusCode}\\nBODY: \\${response.body}');
-    final data = jsonDecode(response.body);
-    if (response.statusCode == 200 && data['status'] == 'success') {
-      if (data['data'] == null || data['data']['next_stage'] == null) {
-        throw Exception('Invalid response: missing next_stage');
-      }
-      return data['data'];
-    } else {
-      throw Exception(data['error']?['message'] ?? 'Failed to proceed to next stage');
+
+    if (data['next_stage'] == null) {
+      throw ApiException(
+        message: 'Invalid response: missing next_stage',
+        error: ErrorDetails(
+          code: ErrorCode.validationError,
+          message: 'Server response missing required field: next_stage',
+        ),
+      );
     }
+    return data;
   }
 
   Future<Map<String, dynamic>> askLLM({
@@ -73,23 +127,22 @@ class ApiService {
     required Map<String, dynamic> context,
     required int questionIndex,
   }) async {
-    final response = await http.post(
-      Uri.parse('$baseUrl/ask_llm'),
-      headers: {'Content-Type': 'application/json'},
-      body: jsonEncode({
-        'conversation_id': conversationId,
-        'question': question,
-        'stage': stage,
-        'context': context,
-        'question_index': questionIndex,
-      }),
+    return handleApiCall(
+      apiCall: () => post(
+        endpoint: 'ask_llm',
+        body: {
+          'conversation_id': conversationId,
+          'question': question,
+          'stage': stage,
+          'context': context,
+          'question_index': questionIndex,
+        },
+        debug: kDebugMode,
+      ),
+      operationName: 'ask LLM',
+      defaultErrorCode: ErrorCode.llmError,
+      defaultErrorMessage: 'Failed to communicate with LLM',
     );
-    final data = jsonDecode(response.body);
-    if (response.statusCode == 200 && data['status'] == 'success') {
-      return data['data'];
-    } else {
-      throw Exception(data['error']?['message'] ?? 'Failed to get LLM response');
-    }
   }
 
   Future<Map<String, dynamic>> reviewResponse({
@@ -99,23 +152,22 @@ class ApiService {
     required String responseText,
     required Map<String, dynamic> context,
   }) async {
-    final response = await http.post(
-      Uri.parse('$baseUrl/review_response'),
-      headers: {'Content-Type': 'application/json'},
-      body: jsonEncode({
-        'conversation_id': conversationId,
-        'stage': stage,
-        'question': question,
-        'response': responseText,
-        'context': context,
-      }),
+    return handleApiCall(
+      apiCall: () => post(
+        endpoint: 'review_response',
+        body: {
+          'conversation_id': conversationId,
+          'stage': stage,
+          'question': question,
+          'response': responseText,
+          'context': context,
+        },
+        debug: kDebugMode,
+      ),
+      operationName: 'review response',
+      defaultErrorCode: ErrorCode.validationError,
+      defaultErrorMessage: 'Failed to review response',
     );
-    final data = jsonDecode(response.body);
-    if (response.statusCode == 200 && data['status'] == 'success') {
-      return data['data'];
-    } else {
-      throw Exception(data['error']?['message'] ?? 'Failed to review response');
-    }
   }
 
   Future<Map<String, dynamic>> checkStageCompletion({
@@ -124,53 +176,62 @@ class ApiService {
     required List<dynamic> questionHistory,
     required Map<String, dynamic> context,
   }) async {
-    final response = await http.post(
-      Uri.parse('$baseUrl/check_stage_completion'),
-      headers: {'Content-Type': 'application/json'},
-      body: jsonEncode({
-        'conversation_id': conversationId,
-        'stage': stage,
-        'question_history': questionHistory,
-        'context': context,
-      }),
+    return handleApiCall(
+      apiCall: () => post(
+        endpoint: 'check_stage_completion',
+        body: {
+          'conversation_id': conversationId,
+          'stage': stage,
+          'question_history': questionHistory,
+          'context': context,
+        },
+        debug: kDebugMode,
+      ),
+      operationName: 'check stage completion',
+      defaultErrorCode: ErrorCode.validationError,
+      defaultErrorMessage: 'Failed to check stage completion',
     );
-    final data = jsonDecode(response.body);
-    if (response.statusCode == 200 && data['status'] == 'success') {
-      return data['data'];
-    } else {
-      throw Exception(data['error']?['message'] ?? 'Failed to check stage completion');
-    }
   }
 
   Future<Map<String, dynamic>> runPipeline({
     required String researchTopic,
-    required String keywords,
-    String questionType = 'default',
+    required List<String> keywords,
+    required String researchGoal,
+    required String researchProblem,
+    required String approach,
+    required String motivation,
+    required String challenges,
+    required String contribution,
   }) async {
-    final url = '$baseUrl/run_pipeline';
-    final body = jsonEncode({
-      'research_context': researchTopic,
-      'keywords': keywords,
-      'question_type': questionType,
-    });
-    debugPrint('API REQUEST: $url\nBODY: $body');
-    final response = await http.post(
-      Uri.parse(url),
-      headers: {'Content-Type': 'application/json'},
-      body: body,
+    final data = await handleApiCall(
+      apiCall: () => post(
+        endpoint: 'run_pipeline',
+        body: {
+          'research_topic': researchTopic,
+          'keywords': keywords,
+          'research_goal': researchGoal,
+          'research_problem': researchProblem,
+          'approach': approach,
+          'motivation': motivation,
+          'challenges': challenges,
+          'contribution': contribution,
+        },
+        debug: kDebugMode,
+      ),
+      operationName: 'run pipeline',
+      defaultErrorCode: ErrorCode.internalError,
+      defaultErrorMessage: 'Failed to run pipeline',
     );
-    debugPrint('API RESPONSE: $url\nSTATUS: \\${response.statusCode}\\nBODY: \\${response.body}');
-    final data = jsonDecode(response.body);
-    if (response.statusCode == 200 && data['status'] == 'success') {
-      if (data['conversation_id'] == null || data['data'] == null) {
-        throw Exception('Invalid response: missing conversation_id or data');
-      }
-      if (data['data']['llm_response'] == null) {
-        throw Exception('Invalid response: missing llm_response');
-      }
-      return data;
-    } else {
-      throw Exception(data['error']?['message'] ?? 'Failed to run pipeline');
+
+    if (data['conversation_id'] == null) {
+      throw ApiException(
+        message: 'Invalid response: missing required field: conversation_id',
+        error: ErrorDetails(
+          code: ErrorCode.validationError,
+          message: 'Server response missing required field: conversation_id',
+        ),
+      );
     }
+    return data;
   }
 } 

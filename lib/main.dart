@@ -3,18 +3,12 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:logging/logging.dart';
-import 'package:flutter_markdown/flutter_markdown.dart';
-import 'package:markdown/markdown.dart' as md;
-import 'package:flutter/rendering.dart';
-import 'package:flutter/services.dart';
 import 'package:mcp_research_web/constants/app_constants.dart';
 import 'package:mcp_research_web/models/research_state.dart';
 import 'package:mcp_research_web/models/conversation.dart';
 import 'package:mcp_research_web/services/api_service.dart';
 import 'package:mcp_research_web/widgets/conversation_history.dart';
 import 'package:mcp_research_web/widgets/question_input.dart';
-import 'package:mcp_research_web/widgets/question_selection.dart';
-import 'package:mcp_research_web/widgets/stage_controls.dart';
 import 'package:mcp_research_web/widgets/research_topic_input.dart';
 
 void main() {
@@ -66,15 +60,38 @@ class MCPResearchHomePage extends StatefulWidget {
 }
 
 class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
-  final _apiService = ApiService(baseUrl: 'http://127.0.0.1:8000');
+  final _apiService = ApiService();
   final _researchState = ResearchState();
   bool _isLoading = false;
-  String _llmResponse = '';
-  TextEditingController _questionController = TextEditingController();
+  final TextEditingController _questionController = TextEditingController();
+  final TextEditingController _topicController = TextEditingController();
+  final TextEditingController _keywordsController = TextEditingController();
+  final TextEditingController _researchGoalController = TextEditingController();
+  final TextEditingController _researchProblemController = TextEditingController();
+  final TextEditingController _approachController = TextEditingController();
+  final TextEditingController _motivationController = TextEditingController();
+  final TextEditingController _challengesController = TextEditingController();
+  final TextEditingController _contributionController = TextEditingController();
+  final ScrollController _conversationScrollController = ScrollController();
 
   @override
   void initState() {
     super.initState();
+  }
+
+  @override
+  void dispose() {
+    _questionController.dispose();
+    _topicController.dispose();
+    _keywordsController.dispose();
+    _researchGoalController.dispose();
+    _researchProblemController.dispose();
+    _approachController.dispose();
+    _motivationController.dispose();
+    _challengesController.dispose();
+    _contributionController.dispose();
+    _conversationScrollController.dispose();
+    super.dispose();
   }
 
   Future<void> _initializeResearch() async {
@@ -100,12 +117,18 @@ class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
     setState(() {
       _researchState.currentStage = Stage.values.firstWhere(
         (s) => s.name.toUpperCase() == response['next_stage'],
-        orElse: () => Stage.planning,
+        orElse: () => Stage.topicSelection,
       );
       _researchState.stageContext = Map<String, String>.from(response['initial_context'] ?? {});
-      _researchState.generatedQuestions = (response['stage_questions'] as List)
-          .map((q) => q['question'] as String)
-          .toList();
+      final stageQuestions = response['stage_questions'];
+      if (stageQuestions is List && stageQuestions.isNotEmpty) {
+        _researchState.generatedQuestions = stageQuestions
+            .map((q) => q['question'] as String)
+            .toList();
+        _researchState.currentQuestionIndex = 0;
+      } else {
+        debugPrint('response[stage_questions]가 없거나 비어 있습니다: $response');
+      }
       _researchState.currentQuestionIndex = 0;
       _researchState.userResponse = '';
       _researchState.conversationId = response['conversation_id'] ?? _researchState.conversationId;
@@ -174,9 +197,8 @@ class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
     setState(() {
       _researchState.addToConversationHistory(
         ConversationMessage(
-          type: MessageType.ERROR,
+          role: 'ERROR',
           content: message,
-          timestamp: DateTime.now(),
         ),
       );
     });
@@ -184,13 +206,18 @@ class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
 
   void _addSystemMessageToHistory(String step, Map<String, dynamic> content) {
     setState(() {
+      String displayMessage;
+      // 단계 전환 메시지 예쁘게 표시
+      if (step == '단계 전환' &&
+          content.containsKey('from_stage') &&
+          content.containsKey('to_stage')) {
+        displayMessage = '단계 전환: ${content['from_stage']} → ${content['to_stage']}';
+      } else {
+        displayMessage = '$step: $content';
+      }
       final msg = ConversationMessage(
-        type: MessageType.SYSTEM,
-        content: jsonEncode({
-          'step': step,
-          'content': content,
-        }),
-        timestamp: DateTime.now(),
+        role: 'SYSTEM',
+        content: displayMessage,
       );
       _researchState.addToConversationHistory(msg);
       _logMessageToServer(_researchState.conversationId ?? '', msg.content);
@@ -201,12 +228,11 @@ class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
     if (_researchState.userResponse.isEmpty) return;
     setState(() {
       final msg = ConversationMessage(
-        type: MessageType.USER,
+        role: 'USER',
         content: jsonEncode({
           'current_question': _researchState.currentQuestion,
           'user_response': _researchState.userResponse,
         }),
-        timestamp: DateTime.now(),
       );
       _researchState.addToConversationHistory(msg);
       _logMessageToServer(_researchState.conversationId ?? '', msg.content);
@@ -217,9 +243,8 @@ class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
   void _addLLMMessageToHistory(String response) {
     setState(() {
       final msg = ConversationMessage(
-        type: MessageType.LLM,
+        role: 'LLM',
         content: response,
-        timestamp: DateTime.now(),
       );
       _researchState.addToConversationHistory(msg);
       _logMessageToServer(_researchState.conversationId ?? '', msg.content);
@@ -231,49 +256,6 @@ class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
       _researchState.currentQuestionIndex = index;
       _researchState.userResponse = '';
     });
-  }
-
-  void _handleQuestionModified(String newQuestion) {
-    setState(() {
-      _researchState.generatedQuestions[_researchState.currentQuestionIndex] = newQuestion;
-    });
-  }
-
-  void _handleAddQuestion() {
-    setState(() {
-      _researchState.generatedQuestions.add('새로운 질문');
-      _researchState.currentQuestionIndex = _researchState.generatedQuestions.length - 1;
-    });
-  }
-
-  void _handleRemoveQuestion() {
-    if (_researchState.generatedQuestions.length > 1) {
-      setState(() {
-        _researchState.generatedQuestions.removeAt(_researchState.currentQuestionIndex);
-        if (_researchState.currentQuestionIndex >= _researchState.generatedQuestions.length) {
-          _researchState.currentQuestionIndex = _researchState.generatedQuestions.length - 1;
-        }
-      });
-    }
-  }
-
-  Future<void> _handleRegenerateQuestions() async {
-    setState(() => _isLoading = true);
-    try {
-      final questions = await _apiService.getStageQuestions(
-        conversationId: _researchState.conversationId ?? '',
-        currentStage: _researchState.currentStage.name.toUpperCase(),
-        stageContext: _researchState.stageContext,
-      );
-      setState(() {
-        _researchState.generatedQuestions = questions.map((q) => q.question).toList();
-        _researchState.currentQuestionIndex = 0;
-      });
-    } catch (e) {
-      _addErrorToHistory('질문을 재생성하는 중 오류가 발생했습니다: $e');
-    } finally {
-      setState(() => _isLoading = false);
-    }
   }
 
   void _handleUserResponseChanged(String response) {
@@ -308,7 +290,7 @@ class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
         title: Row(
           children: [
             SizedBox(
-              width: 280,
+              width: 520,
               child: DropdownButtonFormField<String>(
                 value: _researchState.currentStage.name,
                 decoration: const InputDecoration(
@@ -343,46 +325,85 @@ class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
           ? const Center(child: CircularProgressIndicator())
           : _researchState.researchTopic.isEmpty
               ? ResearchTopicInput(
+                  controller: _topicController,
+                  keywordsController: _keywordsController,
+                  researchGoalController: _researchGoalController,
+                  researchProblemController: _researchProblemController,
+                  approachController: _approachController,
+                  motivationController: _motivationController,
+                  challengesController: _challengesController,
+                  contributionController: _contributionController,
                   isLoading: _isLoading,
-                  onSubmit: (topic, keywords) async {
+                  onSubmit: () {
                     setState(() => _isLoading = true);
-                    try {
-                      _researchState.clearConversationHistory();
-                      _researchState.researchTopic = topic;
-                      _researchState.keywords = keywords;
-                      final pipelineResponse = await _apiService.runPipeline(
-                        researchTopic: topic,
-                        keywords: keywords,
-                        questionType: 'default',
-                      );
-                      _researchState.conversationId = pipelineResponse['conversation_id'];
-                      final data = pipelineResponse['data'];
-                      
-                      // Handle llm_response
-                      if (data['llm_response'] != null) {
-                        final questions = data['llm_response'] as List<dynamic>;
-                        if (questions.isNotEmpty) {
+                    final topic = _topicController.text;
+                    final keywords = _keywordsController.text
+                        .split(',')
+                        .map((k) => k.trim())
+                        .where((k) => k.isNotEmpty)
+                        .toList();
+                    final researchGoal = _researchGoalController.text;
+                    final researchProblem = _researchProblemController.text;
+                    final approach = _approachController.text;
+                    final motivation = _motivationController.text;
+                    final challenges = _challengesController.text;
+                    final contribution = _contributionController.text;
+                    () async {
+                      try {
+                        _researchState.reset();
+                        _researchState.researchTopic = topic;
+                        _researchState.keywords = keywords;
+                        _researchState.researchGoal = researchGoal;
+                        _researchState.researchProblem = researchProblem;
+                        _researchState.approach = approach;
+                        _researchState.motivation = motivation;
+                        _researchState.challenges = challenges;
+                        _researchState.contribution = contribution;
+                        final pipelineResponse = await _apiService.runPipeline(
+                          researchTopic: topic,
+                          keywords: keywords,
+                          researchGoal: researchGoal,
+                          researchProblem: researchProblem,
+                          approach: approach,
+                          motivation: motivation,
+                          challenges: challenges,
+                          contribution: contribution,
+                        );
+                        _researchState.conversationId = pipelineResponse['conversation_id'];
+                        final data = pipelineResponse;
+                        if (data['questions'] is List && data['questions'].isNotEmpty) {
+                          final questions = data['questions'];
+                          _researchState.generatedQuestions = questions
+                              .map((q) => q['question'].toString())
+                              .toList();
+                          _researchState.currentQuestionIndex = 0;
+                        } else {
+                          debugPrint('API 응답에 questions 필드가 없거나 비어 있습니다: $data');
+                        }
+                        if (data['current_stage'] is String) {
+                          _researchState.currentStage = Stage.values.firstWhere(
+                            (s) => s.name.toUpperCase() == data['current_stage'],
+                            orElse: () => Stage.topicSelection,
+                          );
+                        }
+                        if (data['llm_response'] is List && data['llm_response'].isNotEmpty) {
+                          final questions = data['llm_response'] as List<dynamic>;
                           _researchState.generatedQuestions = questions
                               .map((q) => q['question'].toString())
                               .toList();
                           _researchState.currentQuestionIndex = 0;
                         }
+                        if (data['llm_response_markdown'] is String) {
+                          _addLLMMessageToHistory(data['llm_response_markdown']);
+                        }
+                        await _initializeResearch();
+                      } catch (e, stack) {
+                        debugPrint('연구 파이프라인 시작 중 오류: $e\n$stack');
+                        _addErrorToHistory('연구 파이프라인 시작 중 오류가 발생했습니다: $e');
+                      } finally {
+                        setState(() => _isLoading = false);
                       }
-                      
-                      // Handle llm_response_markdown
-                      if (data['llm_response_markdown'] != null) {
-                        setState(() {
-                          _llmResponse = data['llm_response_markdown'];
-                        });
-                        _addLLMMessageToHistory(data['llm_response_markdown']);
-                      }
-                      
-                      await _initializeResearch();
-                    } catch (e) {
-                      _addErrorToHistory('연구 파이프라인 시작 중 오류가 발생했습니다: $e');
-                    } finally {
-                      setState(() => _isLoading = false);
-                    }
+                    }();
                   },
                 )
               : Row(
@@ -390,8 +411,10 @@ class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
                     Expanded(
                       flex: 2,
                       child: Scrollbar(
+                        controller: _conversationScrollController,
                         thumbVisibility: true,
                         child: SingleChildScrollView(
+                          controller: _conversationScrollController,
                           child: Column(
                             children: [
                               // 서버 통신 정보 표시
@@ -428,6 +451,11 @@ class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
                                                 const SizedBox(height: 4),
                                                 Text('연구 주제: ${_researchState.researchTopic}'),
                                                 Text('키워드: ${_researchState.keywords}'),
+                                                Text('연구 목적: ${_researchState.researchGoal}'),
+                                                Text('연구 문제: ${_researchState.researchProblem}'),
+                                                Text('접근 방법: ${_researchState.approach}'),
+                                                Text('연구 동기: ${_researchState.motivation}'),
+                                                Text('도전 과제: ${_researchState.challenges}'),
                                                 const SizedBox(height: 16),
                                                 const Text(
                                                   '서버 응답:',
@@ -510,6 +538,7 @@ class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
                                   ),
                                 ),
                               QuestionInput(
+                                controller: _questionController,
                                 currentStage: _researchState.currentStage.name,
                                 currentQuestion: _researchState.currentQuestion,
                                 userResponse: _researchState.userResponse,
@@ -542,16 +571,8 @@ class _MCPResearchHomePageState extends State<MCPResearchHomePage> {
                     Expanded(
                       flex: 3,
                       child: ConversationHistory(
-                        messages: _researchState.conversationHistory ?? [],
-                        onEditMessage: (index) {
-                          // TODO: Implement message editing
-                        },
-                        toEncodable: (object) {
-                          if (object is DateTime) {
-                            return object.toIso8601String();
-                          }
-                          return object.toString();
-                        },
+                        messages: _researchState.conversationHistory,
+                        scrollController: _conversationScrollController,
                       ),
                     ),
                   ],

@@ -1,35 +1,36 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import '../constants/app_constants.dart';
 import 'conversation.dart' as models;
-import 'package:flutter/foundation.dart';
 
 class ResearchState extends ChangeNotifier {
   String? _conversationId;
-  Stage _currentStage = Stage.planning;
-  Map<String, String> _stageContext = {};
+  Stage _currentStage = Stage.topicSelection;
+  Map<String, dynamic> _stageContext = Map.from(AppConstants.initialStageContext);
   List<models.QuestionResponse> _questionHistory = [];
   List<models.ConversationMessage> _conversationHistory = [];
   List<String> _generatedQuestions = [];
   bool _isLoading = false;
   String? _error;
-  String _currentQuestion = '';
   String _userResponse = '';
   String _llmResponse = '';
   List<String> _suggestedQuestions = [];
-  List<String> _generatedQuestionsList = [];
   int _currentQuestionIndex = 0;
   Map<String, List<models.QuestionResponse>> _stageHistory = {};
-  Map<String, Map<String, dynamic>> _questionCache = {};
-  DateTime? _lastCacheUpdate;
   String _researchTopic = '';
-  String _keywords = '';
+  List<String> _keywords = [];
+  String _researchGoal = '';
+  String _researchProblem = '';
+  String _approach = '';
+  String _motivation = '';
+  String _challenges = '';
+  String _contribution = '';
+  List<String> _questions = [];
+  List<String> _answers = [];
 
   // Getters
   String? get conversationId => _conversationId;
   Stage get currentStage => _currentStage;
-  Map<String, String> get stageContext => _stageContext;
+  Map<String, dynamic> get stageContext => Map.unmodifiable(_stageContext);
   List<models.QuestionResponse> get questionHistory => _questionHistory;
   List<models.ConversationMessage> get conversationHistory => _conversationHistory;
   List<String> get generatedQuestions => _generatedQuestions;
@@ -42,11 +43,18 @@ class ResearchState extends ChangeNotifier {
   String get userResponse => _userResponse;
   String get llmResponse => _llmResponse;
   List<String> get suggestedQuestions => _suggestedQuestions;
-  List<String> get generatedQuestionsList => _generatedQuestionsList;
   int get currentQuestionIndex => _currentQuestionIndex;
   Map<String, List<models.QuestionResponse>> get stageHistory => _stageHistory;
   String get researchTopic => _researchTopic;
-  String get keywords => _keywords;
+  List<String> get keywords => List.unmodifiable(_keywords);
+  String get researchGoal => _researchGoal;
+  String get researchProblem => _researchProblem;
+  String get approach => _approach;
+  String get motivation => _motivation;
+  String get challenges => _challenges;
+  String get contribution => _contribution;
+  List<String> get questions => List.unmodifiable(_questions);
+  List<String> get answers => List.unmodifiable(_answers);
 
   // Setters
   set conversationId(String? value) {
@@ -59,7 +67,7 @@ class ResearchState extends ChangeNotifier {
     notifyListeners();
   }
 
-  set stageContext(Map<String, String> value) {
+  set stageContext(Map<String, dynamic> value) {
     _stageContext = value;
     notifyListeners();
   }
@@ -89,11 +97,6 @@ class ResearchState extends ChangeNotifier {
     notifyListeners();
   }
 
-  set currentQuestion(String question) {
-    _currentQuestion = question;
-    notifyListeners();
-  }
-
   set userResponse(String response) {
     _userResponse = response;
     notifyListeners();
@@ -109,11 +112,6 @@ class ResearchState extends ChangeNotifier {
     notifyListeners();
   }
 
-  set generatedQuestionsList(List<String> questions) {
-    _generatedQuestionsList = questions;
-    notifyListeners();
-  }
-
   set currentQuestionIndex(int index) {
     _currentQuestionIndex = index;
     notifyListeners();
@@ -124,8 +122,48 @@ class ResearchState extends ChangeNotifier {
     notifyListeners();
   }
 
-  set keywords(String keywords) {
+  set keywords(List<String> keywords) {
     _keywords = keywords;
+    notifyListeners();
+  }
+
+  set researchGoal(String value) {
+    _researchGoal = value;
+    notifyListeners();
+  }
+
+  set researchProblem(String value) {
+    _researchProblem = value;
+    notifyListeners();
+  }
+
+  set approach(String value) {
+    _approach = value;
+    notifyListeners();
+  }
+
+  set motivation(String value) {
+    _motivation = value;
+    notifyListeners();
+  }
+
+  set challenges(String value) {
+    _challenges = value;
+    notifyListeners();
+  }
+
+  set contribution(String value) {
+    _contribution = value;
+    notifyListeners();
+  }
+
+  set questions(List<String> value) {
+    _questions = value;
+    notifyListeners();
+  }
+
+  set answers(List<String> value) {
+    _answers = value;
     notifyListeners();
   }
 
@@ -153,7 +191,7 @@ class ResearchState extends ChangeNotifier {
   }
 
   void updateStageContext(Map<String, dynamic> context) {
-    _stageContext = context as Map<String, String>;
+    _stageContext = context;
     notifyListeners();
   }
 
@@ -169,69 +207,48 @@ class ResearchState extends ChangeNotifier {
 
   void reset() {
     _conversationId = null;
-    _currentStage = Stage.planning;
-    _stageContext = AppConstants.initialStageContext;
+    _currentStage = Stage.topicSelection;
+    _stageContext = Map.from(AppConstants.initialStageContext);
     _questionHistory = [];
     _conversationHistory = [];
     _generatedQuestions = [];
     _isLoading = false;
     _error = null;
-    _currentQuestion = '';
     _userResponse = '';
     _llmResponse = '';
     _suggestedQuestions = [];
-    _generatedQuestionsList = [];
     _currentQuestionIndex = 0;
     _stageHistory = {};
-    _questionCache = {};
-    _lastCacheUpdate = null;
     _researchTopic = '';
-    _keywords = '';
+    _keywords = [];
+    _researchGoal = '';
+    _researchProblem = '';
+    _approach = '';
+    _motivation = '';
+    _challenges = '';
+    _contribution = '';
+    _questions = [];
+    _answers = [];
     notifyListeners();
   }
 
-  // Cache management
-  Future<void> loadCache() async {
-    final prefs = await SharedPreferences.getInstance();
-    final cacheJson = prefs.getString('question_cache');
-    if (cacheJson != null) {
-      final cacheData = json.decode(cacheJson);
-      _questionCache = Map<String, Map<String, dynamic>>.from(cacheData['cache']);
-      _lastCacheUpdate = DateTime.parse(cacheData['timestamp']);
+  void moveToNextStage() {
+    final currentIndex = AppConstants.stageProgression.indexOf(_currentStage);
+    if (currentIndex < AppConstants.stageProgression.length - 1) {
+      _currentStage = AppConstants.stageProgression[currentIndex + 1];
+      _stageContext = Map.from(AppConstants.initialStageContext);
+      _stageContext['stage'] = _currentStage.name;
+      notifyListeners();
     }
   }
 
-  Future<void> saveCache() async {
-    final prefs = await SharedPreferences.getInstance();
-    final cacheData = {
-      'cache': _questionCache,
-      'timestamp': DateTime.now().toIso8601String(),
-    };
-    await prefs.setString('question_cache', json.encode(cacheData));
-  }
-
-  bool isCacheValid() {
-    if (_lastCacheUpdate == null) return false;
-    return DateTime.now().difference(_lastCacheUpdate!) < AppConstants.cacheDuration;
-  }
-
-  Map<String, dynamic>? getCachedQuestion(String stage, String question) {
-    if (!isCacheValid()) return null;
-    return _questionCache['$stage:$question'];
-  }
-
-  void cacheQuestion(String stage, String question, Map<String, dynamic> data) {
-    _questionCache['$stage:$question'] = data;
-    _lastCacheUpdate = DateTime.now();
-    saveCache();
-  }
-
-  void updateCache() {
-    _lastCacheUpdate = DateTime.now();
-  }
-
-  void clearConversationHistory() {
-    _conversationHistory.clear();
-    notifyListeners();
+  void moveToPreviousStage() {
+    final currentIndex = AppConstants.stageProgression.indexOf(_currentStage);
+    if (currentIndex > 0) {
+      _currentStage = AppConstants.stageProgression[currentIndex - 1];
+      _stageContext = Map.from(AppConstants.initialStageContext);
+      _stageContext['stage'] = _currentStage.name;
+      notifyListeners();
+    }
   }
 } 

@@ -1,16 +1,15 @@
-import 'dart:convert';
 import 'package:flutter/foundation.dart';
 
 // String-based enums for REST/JSON only
-enum MessageType { USER, SYSTEM, ERROR, LLM }
-enum ApiStatus { SUCCESS, ERROR }
+enum MessageType { user, system, error, llm }
+enum ApiStatus { success, error }
 enum ErrorCode {
-  INVALID_REQUEST,
-  CONVERSATION_NOT_FOUND,
-  STAGE_TRANSITION_ERROR,
-  LLM_ERROR,
-  VALIDATION_ERROR,
-  INTERNAL_ERROR
+  invalidRequest,
+  conversationNotFound,
+  stageTransitionError,
+  llmError,
+  validationError,
+  internalError
 }
 
 @immutable
@@ -29,7 +28,7 @@ class ErrorDetails {
     return ErrorDetails(
       code: ErrorCode.values.firstWhere(
         (e) => e.name == json['code'],
-        orElse: () => ErrorCode.INTERNAL_ERROR,
+        orElse: () => ErrorCode.internalError,
       ),
       message: json['message'] as String,
       details: json['details'] as Map<String, dynamic>?,
@@ -82,39 +81,34 @@ class MessageMetadata {
 }
 
 class ConversationMessage {
-  final MessageType type;
+  final String role;
   final String content;
   final DateTime timestamp;
   final MessageMetadata? metadata;
 
   ConversationMessage({
-    required this.type,
+    required this.role,
     required this.content,
-    required this.timestamp,
+    DateTime? timestamp,
     this.metadata,
-  });
+  }) : timestamp = timestamp ?? DateTime.now();
+
+  Map<String, dynamic> toJson() => {
+        'role': role,
+        'content': content,
+        'timestamp': timestamp.toIso8601String(),
+        if (metadata != null) 'metadata': metadata!.toJson(),
+      };
 
   factory ConversationMessage.fromJson(Map<String, dynamic> json) {
     return ConversationMessage(
-      type: MessageType.values.firstWhere(
-        (e) => e.name == json['type'],
-        orElse: () => MessageType.USER,
-      ),
+      role: json['role'] as String,
       content: json['content'] as String,
       timestamp: DateTime.parse(json['timestamp'] as String),
       metadata: json['metadata'] != null
           ? MessageMetadata.fromJson(json['metadata'])
           : null,
     );
-  }
-
-  Map<String, dynamic> toJson() {
-    return {
-      'type': type.name,
-      'content': content,
-      'timestamp': timestamp.toIso8601String(),
-      if (metadata != null) 'metadata': metadata!.toJson(),
-    };
   }
 }
 
@@ -215,7 +209,7 @@ class ApiResponse<T> {
     return ApiResponse(
       status: ApiStatus.values.firstWhere(
         (e) => e.name.toLowerCase() == (json['status'] as String).toLowerCase(),
-        orElse: () => ApiStatus.ERROR,
+        orElse: () => ApiStatus.error,
       ),
       data: json['data'] != null ? fromJson(json['data']) : null,
       message: json['message'] as String?,
